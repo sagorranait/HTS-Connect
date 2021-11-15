@@ -1,0 +1,6161 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 419.98px) {
+
+    /* ==============================================
+                common  responsive css start
+       ============================================== */
+    .hst-btn {
+        width: 100%;
+    }
+
+    .hst-mt-59 {
+        margin-top: 40px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .desk-none {
+        display: block;
+    }
+
+    .bg-shape3 {
+        width: 775px;
+
+    }
+
+    .blue-screen::after {
+
+        background-size: 1130px;
+        height: 391px;
+        width: 486px;
+    }
+
+    .bg-shape1 {
+        width: 715px;
+        height: 148px;
+    }
+
+    .green-screen::after {
+
+        bottom: 0;
+        right: -80px;
+        height: 514px;
+        width: 1000px;
+        background-size: 315px;
+    }
+
+    .green-screen::before {
+
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1283px;
+    }
+
+    /* ==============================================
+                common  responsive css end
+       ============================================== */
+    /* ==============================================
+                fonts for responsive css start
+       ============================================== */
+    .boldx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .mediumx18-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .regular24-ro {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 22px;
+
+    }
+
+    .mediumx14-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .sblackx62-mon {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .ssmallx14-ro {
+        font-size: 12px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+    }
+
+    .smediumx18l18-ro {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .ssmallx18-mon {
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+
+    .ssmallx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .smediumx24l28-ro {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .sboldx14l18-ro {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .smediumx14l16-ro {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .sboldx22-ro {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .smediumx14-ro {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mediumx10l11-ro {
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    #searchFilters .filter-btn {
+        padding: 14px 96px;
+    }
+
+    /* ==============================================
+                fonts for responsive css end
+       ============================================== */
+
+    /* ==============================================
+                navbar responsive css start
+       ============================================== */
+
+    .navbar .logo img {
+        height: 44px;
+    }
+
+    .navbar button i {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar ul {
+        background: #9BB353;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+
+    .navbar .msg-bg {
+        background: #6695B1;
+    }
+
+    .navbar ul li .contact {
+        padding-top: 15px;
+        margin-right: 0;
+    }
+
+    .navbar ul li .profile {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .name {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 15px;
+        padding-top: 35px;
+    }
+
+    .navbar ul li .e-mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 8px 50px;
+    }
+
+    .navbar .mobile {
+        display: none;
+    }
+
+    .navbar .desk {
+        display: block;
+    }
+
+    .navbar .e-mail {
+        width: 34px;
+        height: 34px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .navbar .msg-extra {
+        margin-left: 55px;
+    }
+
+    /* ==============================================
+                navbar responsive css end
+       ============================================== */
+    /* ==============================================
+                nav modal responsive css start
+       ============================================== */
+
+    #changePhoto .modal-dialog {
+        width: 300px;
+        margin: 195px 372px 50px auto;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 300px;
+    }
+
+    #changePhoto .modal-body .changepic-content h2 {
+        padding-bottom: 20px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 125px;
+        height: 125px;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 35px 20px;
+    }
+
+    #changePhoto .remove-photo {
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #changePhoto .changepic-content p {
+        padding-bottom: 20px;
+    }
+
+    /* ==============================================
+                nav modal responsive css end
+       ============================================== */
+
+
+    /* =================================login page start========================== */
+    /* #hts-login {
+      padding-top: 100px;
+    } */
+    #hts-login .login-form {
+        padding-top: 90px;
+    }
+
+    #hts-login .login-title {
+        padding-top: 15px;
+    }
+
+    .login-form .login-input {
+        width: 100%;
+    }
+
+    #hts-login .login-image img {
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #hts-login .flexx-res {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* =================================login page end========================== */
+    /* =================================signin page start========================== */
+    #hts-signup {
+        height: 1150px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 120px;
+    }
+
+    #hts-signup .signup-input {
+        width: 100%;
+    }
+
+    #hts-signup .signup-form-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* =================================signin page end========================== */
+    /* =================================home page start========================== */
+    #hts-login {
+        padding-top: 105px;
+    }
+
+    .welcome-item .item-one {
+        width: 135px;
+        display: inline-block;
+    }
+
+    .welcome-item .items {
+        width: 135px;
+        height: 135px;
+        padding: 75px 25px 10px 12px;
+        text-align: left;
+    }
+
+    .welcome-item .home-flexx-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .welcome-item .item-one p {
+        width: 135px;
+        text-align: left;
+    }
+
+    .hst-res-mt {
+        margin-top: 80px;
+    }
+
+    /* =================================home page end========================== */
+    /* =================================tab responsive start========================== */
+    #tabs-part {
+        padding-top: 130px;
+    }
+
+    #tabs-part .tab-content {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #tabs-part .tab-content::after {
+        background: url(../images/tabs/tab-bg.svg) no-repeat center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+
+    }
+
+    #tabs-part ul {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #tabs-part ul li {
+        width: 250px;
+    }
+
+    #tabs-part ul li button {
+        width: 250px;
+        margin-right: 3px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        border-radius: 14px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+
+    /* number responsive start */
+    .number .widt {
+        width: 120px;
+    }
+
+    .number span {
+        padding: 8px;
+
+    }
+
+    /* number responsive end */
+    .res-number {
+        margin-bottom: 40px;
+    }
+
+    /* selecetor box responsive start */
+    .selector-box .dropdown-div {
+        width: 100%;
+
+    }
+
+    .radio-checkbox {
+        margin-top: 26px;
+        border-radius: 12px;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #646465;
+    }
+
+    .radio-checkbox .label-design {
+        width: 100%;
+
+    }
+
+    .procedure-select {
+        margin-top: 20px;
+    }
+
+
+
+    /* selecetor box responsive end */
+
+    /* ==============================================
+                    procedure responsive css start
+           ============================================== */
+    .human-body {
+        margin: auto !important;
+    }
+
+    .information-box {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .information-box .sub-button {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 40px;
+    }
+
+    /* ==============================================
+                    procedure responsive css end
+           ============================================== */
+    /* ==============================================
+                    provider responsive css start
+           ============================================== */
+    .find-provider .first {
+        flex-direction: column;
+    }
+
+    .find-provider .first .number-one {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .find-provider .city {
+        height: 300px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .information-box .provider-pra {
+
+        width: auto;
+
+    }
+
+    .find-provider a {
+        width: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .find-provider .second .number-one {
+        margin-bottom: 25px;
+    }
+
+    /* ==============================================
+                    provider responsive css end
+           ============================================== */
+    /* =====================provider2 responsive start======================= */
+
+    /* ==============================================
+                 provider2 responsive css start
+       ============================================== */
+    #provider2 {
+        padding-right: 0;
+
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #provider2 .all-searches {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    #provider2 .search-head {
+        width: 100%;
+        position: relative;
+        padding-right: 0;
+        background: transparent;
+
+    }
+
+    #provider2 .search-head .shead-left {
+        padding-top: 10px;
+    }
+
+    #provider2 .search-head .shead-left .found {
+        font-size: 10px;
+        line-height: 16px;
+        margin-right: 15px;
+    }
+
+    #provider2 .search-head .shead-right .shead-btn {
+        font-size: 7px;
+        line-height: 9px;
+        padding: 8px 10px;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box {
+        height: 360px;
+        padding-top: 0;
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 100%;
+        padding: 24px 15px 24px 15px;
+        margin-top: 0;
+        margin-bottom: 15px;
+
+    }
+
+    #provider2 .main-search-box .search-box-left {
+        width: 180px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-pragraph {
+        font-size: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        flex-direction: column;
+        text-align: right;
+        width: 90px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-texts {
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 0;
+    }
+
+
+    #provider2 .back-btn-provider {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+
+    #provider2 .back-btn-provider img {
+        margin-right: 5px;
+        width: 15px;
+    }
+
+    /* ==============================================
+                provider2 responsive css end
+        ============================================== */
+
+
+    /* =======================provider2 responsive start===================== */
+    /* =======================provider4 responsive start===================== */
+
+    /* ==============================================
+                    provider4 responsive css start
+            ============================================== */
+    #provider2 .main-search-box .map-search-box {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    #provider2 .main-search-box .one-box {
+        width: 100%;
+    }
+
+    #provider2 .main-search-box .map-details-main {
+        margin-top: 20px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box {
+        width: 150px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box .map-pragraph {
+        font-size: 10px;
+        line-height: 18px;
+        width: auto;
+    }
+
+
+
+    /* ==============================================
+                    provider4 responsive css end
+            ============================================== */
+    /* ==============================================
+                    provider filter-modal responsive css start
+            ============================================== */
+
+    #searchFilters .modal-dialog {
+        width: 310px;
+        margin-left: 0;
+        margin-top: 120px;
+        padding: 25px 9px 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #searchFilters .radio-input input[type="radio"]:checked+label {
+        width: 90px;
+    }
+
+    #searchFilters .radio-input label {
+        width: 90px;
+
+    }
+
+    #searchFilters .star-icons span img {
+        width: 10px;
+    }
+
+    #searchFilters .filter-btn {
+        font-size: 12px;
+    }
+
+    /* ==============================================
+                    provider filter-modal responsive css end
+            ============================================== */
+    /* =======================provider4 responsive end===================== */
+    /* ==============================================
+                    benefit responsive css start
+           ============================================== */
+    .benifts {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .benifts .plane .calender {
+        margin-top: 30px;
+    }
+
+    .benifts .plane .calender a {
+        width: 100%;
+
+    }
+
+    .benifts .plane .calender a .expand {
+        margin-left: auto;
+    }
+
+    .benifts .plane .deductible {
+        width: 100%;
+
+    }
+
+    .benifts .information {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .benifts .information .info-edit {
+        width: 100%;
+        padding: 18px 0;
+        text-align: center;
+
+    }
+
+    .benifts .information .g-info .datas {
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .benifts .information .g-info .datas ul {
+        width: 115px;
+    }
+
+    .benifts .information .g-info .datas ul li {
+        width: 160px !important;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 20px;
+
+    }
+
+    .benifts .upload {
+        margin-top: 20px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+    }
+
+    .benifts .upload .attachment-btn {
+        width: 100%;
+    }
+
+    .benifts .upload input,
+    .benifts .upload [type="file"]+label {
+        width: 100%;
+
+    }
+
+    .benifts .upload .upload-send {
+        width: 100%;
+    }
+
+
+    /* ==============================================
+                    benefit responsive css end
+           ============================================== */
+    /* ==============================================
+                    pan responsive css start
+           ============================================== */
+    .plan {
+        padding-top: 15px;
+        padding-left: 0;
+
+    }
+
+    .plan .one {
+        width: 275px
+    }
+
+    /* ==============================================
+                    pan responsive css end
+           ============================================== */
+    /* ==============================================
+                    pricing responsive css start
+           ============================================== */
+
+    .pricing {
+        padding-top: 25px;
+        padding-left: 0;
+    }
+
+    .pricing .price-logo {
+        width: 260px;
+        height: 40px;
+    }
+
+    .pricing .drug-name input {
+        width: 275px;
+    }
+
+    .pricing .main .zip input {
+        width: 135px;
+    }
+
+    .pricing .main .search button {
+        padding: 13px 40px;
+    }
+
+    .pricing h5 {
+        width: 280px;
+    }
+
+    /* ==============================================
+                    pricing responsive css end
+           ============================================== */
+
+    /* =================================tab responsive end========================== */
+    /* ================================message responsive start====================== */
+    /* ==============================================
+                    message responsive css start
+           ============================================== */
+    #myTabContent .hst-mymessage {
+        padding: 0 0 0 0;
+    }
+
+    #myTabContent .message-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 100%;
+        height: 299px;
+        padding: 20px 10px 0 10px;
+        scrollbar-color: #AFC95F transparent;
+    }
+
+    #myTabContent .left .message-info {
+        padding-right: 30px;
+    }
+
+    #myTabContent .right .message-info {
+        padding-left: 50px;
+    }
+
+    #myTabContent .message-info .message-text {
+        width: auto;
+        padding: 10px 8px;
+    }
+
+    #myTabContent .messages-content .user-image {
+        width: 80px;
+        height: 25px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 100%;
+    }
+
+    #myTabContent .message-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    /* ==============================================
+                    message responsive css end
+           ============================================== */
+    /* ==============================================
+                    message-change responsive css start
+           ============================================== */
+    #myTabContent .hst-loginDetails {
+        padding: 15px 10px 20px 10px;
+    }
+
+    #myTabContent .change-inputs {
+        width: 275px;
+
+    }
+
+    #myTabContent .change-btn {
+        width: 130px;
+        padding: 13px 0;
+        margin: 0 0 0 0;
+    }
+
+    #myTabContent .login-changeEmail .newPassword-text {
+        width: 280px;
+    }
+
+    #myTabContent .hst-loginDetails .login-changeEmail {
+        padding-bottom: 30px;
+    }
+
+    #myTabContent .hst-loginDetails .login-pad-bt {
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================
+                    message-change responsive css end
+           ============================================== */
+    /* ====================================================
+             message-membar-info responsive css start
+     =================================================== */
+
+    #myTabContent .hst-memerbInfo {
+        padding: 15px 0px 0px 10px;
+    }
+
+    #myTabContent .hst-memerbInfo .mem-info-nopad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 15px 10px 0px 10px;
+    }
+
+    /* ====================================================
+             message-membar-info responsive css end
+     =================================================== */
+    /* ====================================================
+             message-modal responsive css start
+     =================================================== */
+    #hstuserpopup .modal-dialog {
+        width: 300px;
+        top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 300px;
+
+    }
+
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 110px;
+        height: 110px;
+    }
+
+    /* ====================================================
+             message-modal responsive css end
+     =================================================== */
+
+
+    /* =================================message responsive end======================== */
+
+
+
+
+
+
+    /* ==============================================
+                footer responsive css start
+       ============================================== */
+    #footer-part {
+        text-align: center;
+
+    }
+
+    #footer-part .main {
+        flex-direction: column;
+    }
+
+    #footer-part .term {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer-part .main .term a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                footer responsive css end
+       ============================================== */
+
+
+
+
+}
+
+@media (min-width: 420px) and (max-width: 575.98px) {
+
+    /* ==============================================
+                common  responsive css start
+       ============================================== */
+    .hst-btn {
+        width: 100%;
+    }
+
+    .hst-mt-59 {
+        margin-top: 40px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .desk-none {
+        display: block;
+    }
+
+    .bg-shape3 {
+        width: 775px;
+
+    }
+
+    .blue-screen::after {
+        background-size: 1277px;
+        height: 709px;
+        width: 717px;
+    }
+
+
+    .bg-shape1 {
+        width: 715px;
+        height: 148px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -80px;
+        height: 610px;
+        width: 1079px;
+        background-size: 520px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1540px;
+    }
+
+    .none-green::before {
+
+        height: 152px !important;
+
+    }
+
+    /* ==============================================
+                common  responsive css end
+       ============================================== */
+    /* ==============================================
+                fonts for responsive css start
+       ============================================== */
+    .boldx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .mediumx18-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .regular24-ro {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 22px;
+
+    }
+
+    .mediumx14-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .sblackx62-mon {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .ssmallx14-ro {
+        font-size: 12px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+    }
+
+    .smediumx18l18-ro {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .ssmallx18-mon {
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+
+    .ssmallx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .smediumx24l28-ro {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .sboldx14l18-ro {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .smediumx14l16-ro {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .sboldx22-ro {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .smediumx14-ro {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mediumx10l11-ro {
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    #searchFilters .filter-btn {
+        padding: 14px 96px;
+    }
+
+    /* ==============================================
+                fonts for responsive css end
+       ============================================== */
+
+    /* ==============================================
+                navbar responsive css start
+       ============================================== */
+
+    .navbar .logo img {
+        height: 44px;
+    }
+
+    .navbar button i {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar ul {
+        background: #9BB353;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .navbar .msg-bg {
+        background: #6695B1;
+    }
+
+    .navbar ul li .contact {
+        padding-top: 15px;
+        margin-right: 0;
+    }
+
+    .navbar ul li .profile {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .name {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 15px;
+        padding-top: 35px;
+    }
+
+    .navbar ul li .e-mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 8px 50px;
+    }
+
+    .navbar .mobile {
+        display: none;
+    }
+
+    .navbar .desk {
+        display: block;
+    }
+
+    .navbar .e-mail {
+        width: 34px;
+        height: 34px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .navbar .msg-extra {
+        margin-left: 155px;
+    }
+
+    /* ==============================================
+                navbar responsive css end
+       ============================================== */
+    /* ==============================================
+                nav modal responsive css start
+       ============================================== */
+
+    #changePhoto .modal-dialog {
+        width: 300px;
+        margin: 195px 372px 50px auto;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 300px;
+    }
+
+    #changePhoto .modal-body .changepic-content h2 {
+        padding-bottom: 20px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 125px;
+        height: 125px;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 35px 20px;
+    }
+
+    #changePhoto .remove-photo {
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #changePhoto .changepic-content p {
+        padding-bottom: 20px;
+    }
+
+    /* ==============================================
+                nav modal responsive css end
+       ============================================== */
+
+
+    /* =================================login page start========================== */
+    /* #hts-login {
+      padding-top: 100px;
+    } */
+    #hts-login .login-form {
+        padding-top: 90px;
+    }
+
+    #hts-login .login-title {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .login-form .login-input {
+        width: 100%;
+    }
+
+    #hts-login .login-image img {
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #hts-login .flexx-res {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* =================================login page end========================== */
+    /* =================================signin page start========================== */
+    #hts-signup {
+        height: 1150px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 120px;
+    }
+
+    #hts-signup .signup-input {
+        width: 100%;
+    }
+
+    #hts-signup .signup-form-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* =================================signin page end========================== */
+    /* =================================home page start========================== */
+    #hts-login {
+        padding-top: 105px;
+    }
+
+    .welcome-item .item-one {
+        width: 185px;
+        display: inline-block;
+    }
+
+    .welcome-item .items {
+        width: 185px;
+        height: 155px;
+        padding: 85px 25px 10px 25px;
+        text-align: left;
+    }
+
+    .welcome-item .home-flexx-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .welcome-item .item-one p {
+        width: 135px;
+        text-align: left;
+    }
+
+    .hst-res-mt {
+        margin-top: 80px;
+    }
+
+    /* =================================home page end========================== */
+    /* =================================tab responsive start========================== */
+    #tabs-part {
+        padding-top: 130px;
+    }
+
+    #tabs-part .tab-content {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #tabs-part .tab-content::after {
+        background: url(../images/tabs/tab-bg.svg) no-repeat center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+
+    }
+
+    #tabs-part ul {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #tabs-part ul li {
+        width: 315px;
+    }
+
+    #tabs-part ul li button {
+        width: 315px;
+        margin-right: 3px;
+        padding: 10px 10px;
+        margin-top: 10px;
+        border-radius: 14px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+
+    /* number responsive start */
+    .number .widt {
+        width: 120px;
+    }
+
+    .number span {
+        padding: 8px;
+
+    }
+
+    /* number responsive end */
+    .res-number {
+        margin-bottom: 40px;
+    }
+
+    /* selecetor box responsive start */
+    .selector-box .dropdown-div {
+        width: 100%;
+
+    }
+
+    .radio-checkbox {
+        margin-top: 26px;
+        border-radius: 12px;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #646465;
+    }
+
+    .radio-checkbox .label-design {
+        width: 100%;
+
+    }
+
+    .procedure-select {
+        margin-top: 20px;
+    }
+
+
+
+    /* selecetor box responsive end */
+
+    /* ==============================================
+                    procedure responsive css start
+           ============================================== */
+    .human-body {
+        margin: auto !important;
+    }
+
+    .information-box {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .information-box .sub-button {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 40px;
+    }
+
+    /* ==============================================
+                    procedure responsive css end
+           ============================================== */
+    /* ==============================================
+                    provider responsive css start
+           ============================================== */
+    .find-provider .first {
+        flex-direction: column;
+    }
+
+    .find-provider .first .number-one {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .find-provider .city {
+        height: 300px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .information-box .provider-pra {
+
+        width: auto;
+
+    }
+
+    .find-provider a {
+        width: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .find-provider .second .number-one {
+        margin-bottom: 25px;
+    }
+
+    /* ==============================================
+                    provider responsive css end
+           ============================================== */
+    /* =====================provider2 responsive start======================= */
+
+    /* ==============================================
+                 provider2 responsive css start
+       ============================================== */
+    #provider2 {
+        padding-right: 0;
+
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #provider2 .all-searches {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    #provider2 .search-head {
+        width: 100%;
+        position: relative;
+        padding-right: 0;
+        background: transparent;
+
+    }
+
+    #provider2 .search-head .shead-left {
+        padding-top: 10px;
+    }
+
+    #provider2 .search-head .shead-left .found {
+        font-size: 10px;
+        line-height: 16px;
+        margin-right: 15px;
+    }
+
+    #provider2 .search-head .shead-right .shead-btn {
+        font-size: 7px;
+        line-height: 9px;
+        padding: 8px 10px;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box {
+        height: 360px;
+        padding-top: 0;
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 100%;
+        padding: 24px 15px 24px 15px;
+        margin-top: 0;
+        margin-bottom: 15px;
+
+    }
+
+    #provider2 .main-search-box .search-box-left {
+        width: 180px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-pragraph {
+        font-size: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        flex-direction: column;
+        text-align: right;
+        width: 90px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-texts {
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 0;
+    }
+
+
+    #provider2 .back-btn-provider {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+
+    #provider2 .back-btn-provider img {
+        margin-right: 5px;
+        width: 15px;
+    }
+
+    /* ==============================================
+                provider2 responsive css end
+        ============================================== */
+
+
+    /* =======================provider2 responsive start===================== */
+    /* =======================provider4 responsive start===================== */
+
+    /* ==============================================
+                    provider4 responsive css start
+            ============================================== */
+    #provider2 .main-search-box .map-search-box {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    #provider2 .main-search-box .one-box {
+        width: 100%;
+    }
+
+    #provider2 .main-search-box .map-details-main {
+        margin-top: 20px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box {
+        width: 150px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box .map-pragraph {
+        font-size: 10px;
+        line-height: 18px;
+        width: auto;
+    }
+
+
+
+    /* ==============================================
+                    provider4 responsive css end
+            ============================================== */
+    /* ==============================================
+                    provider filter-modal responsive css start
+            ============================================== */
+
+    #searchFilters .modal-dialog {
+        width: 310px;
+        margin-left: 0;
+        margin-top: 120px;
+        padding: 25px 9px 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #searchFilters .radio-input input[type="radio"]:checked+label {
+        width: 90px;
+    }
+
+    #searchFilters .radio-input label {
+        width: 90px;
+
+    }
+
+    #searchFilters .star-icons span img {
+        width: 10px;
+    }
+
+    #searchFilters .filter-btn {
+        font-size: 12px;
+    }
+
+    /* ==============================================
+                    provider filter-modal responsive css end
+            ============================================== */
+    /* =======================provider4 responsive end===================== */
+    /* ==============================================
+                    benefit responsive css start
+           ============================================== */
+    .benifts {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .benifts .plane .calender {
+        margin-top: 30px;
+    }
+
+    .benifts .plane .calender a {
+        width: 100%;
+
+    }
+
+    .benifts .plane .calender a .expand {
+        margin-left: auto;
+    }
+
+    .benifts .plane .deductible {
+        width: 100%;
+
+    }
+
+    .benifts .information {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .benifts .information .info-edit {
+        width: 100%;
+        padding: 18px 0;
+        text-align: center;
+
+    }
+
+    .benifts .information .g-info .datas {
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .benifts .information .g-info .datas ul li {
+        width: 160px !important;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 0;
+        width: 109px;
+    }
+
+
+    .benifts .upload {
+        margin-top: 20px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+    }
+
+    .benifts .upload .attachment-btn {
+        width: 100%;
+    }
+
+    .benifts .upload input,
+    .benifts .upload [type="file"]+label {
+        width: 100%;
+
+    }
+
+    .benifts .upload .upload-send {
+        width: 100%;
+    }
+
+
+    /* ==============================================
+                    benefit responsive css end
+           ============================================== */
+    /* ==============================================
+                    pan responsive css start
+           ============================================== */
+    .plan {
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .plan .one {
+        width: 275px
+    }
+
+    /* ==============================================
+                    pan responsive css end
+           ============================================== */
+    /* ==============================================
+                    pricing responsive css start
+           ============================================== */
+
+    .pricing {
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .pricing .price-logo {
+        width: 260px;
+        height: 40px;
+    }
+
+    .pricing .drug-name input {
+        width: 275px;
+    }
+
+    .pricing .main .zip input {
+        width: 135px;
+    }
+
+    .pricing .main .search button {
+        padding: 13px 40px;
+    }
+
+    .pricing h5 {
+        width: 280px;
+    }
+
+    /* ==============================================
+                    pricing responsive css end
+           ============================================== */
+
+    /* =================================tab responsive end========================== */
+    /* ================================message responsive start====================== */
+    /* ==============================================
+                    message responsive css start
+           ============================================== */
+    #myTabContent .hst-mymessage {
+        padding: 0 0 0 0;
+    }
+
+    #myTabContent .message-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 100%;
+        height: 299px;
+        padding: 20px 10px 0 10px;
+        scrollbar-color: #AFC95F transparent;
+    }
+
+    #myTabContent .left .message-info {
+        padding-right: 30px;
+    }
+
+    #myTabContent .right .message-info {
+        padding-left: 50px;
+    }
+
+    #myTabContent .message-info .message-text {
+        width: auto;
+        padding: 10px 8px;
+    }
+
+    #myTabContent .messages-content .user-image {
+        width: 90px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 100%;
+    }
+
+    #myTabContent .message-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    /* ==============================================
+                    message responsive css end
+           ============================================== */
+    /* ==============================================
+                    message-change responsive css start
+           ============================================== */
+    #myTabContent .hst-loginDetails {
+        padding: 30px 10px 20px 60px;
+    }
+
+    #myTabContent .change-inputs {
+        width: 275px;
+
+    }
+
+    #myTabContent .change-btn {
+        width: 130px;
+        padding: 13px 0;
+        margin: 0 0 0 0;
+    }
+
+    #myTabContent .login-changeEmail .newPassword-text {
+        width: 280px;
+    }
+
+    #myTabContent .hst-loginDetails .login-changeEmail {
+        padding-bottom: 30px;
+    }
+
+    #myTabContent .hst-loginDetails .login-pad-bt {
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================
+                    message-change responsive css end
+           ============================================== */
+    /* ====================================================
+             message-membar-info responsive css start
+     =================================================== */
+
+    #myTabContent .hst-memerbInfo {
+        padding: 30px 0px 0px 60px;
+    }
+
+    #myTabContent .hst-memerbInfo .mem-info-nopad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 30px 30px 0px 30px;
+    }
+
+    /* ====================================================
+             message-membar-info responsive css end
+     =================================================== */
+    /* ====================================================
+             message-modal responsive css start
+     =================================================== */
+    #hstuserpopup .modal-dialog {
+        width: 300px;
+        top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 300px;
+
+    }
+
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 110px;
+        height: 110px;
+    }
+
+    /* ====================================================
+             message-modal responsive css end
+     =================================================== */
+
+
+    /* =================================message responsive end======================== */
+
+
+
+
+
+
+    /* ==============================================
+                footer responsive css start
+       ============================================== */
+    #footer-part {
+        text-align: center;
+
+    }
+
+    #footer-part .main {
+        flex-direction: column;
+    }
+
+    #footer-part .term {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer-part .main .term a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                footer responsive css end
+       ============================================== */
+
+
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ==============================================
+                common  responsive css start
+       ============================================== */
+    .hst-btn {
+        width: 100%;
+    }
+
+    .hst-mt-59 {
+        margin-top: 40px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .desk-none {
+        display: block;
+    }
+
+
+
+    .bg-shape3 {
+        width: 775px;
+
+    }
+
+    .blue-screen::after {
+        background-size: 1277px;
+        height: 709px;
+        width: 717px;
+    }
+
+    .bg-shape1 {
+        width: 909px;
+        height: 203px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 610px;
+        width: 1079px;
+        background-size: 510px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1670px;
+    }
+
+    .bg-shape3 {
+        width: 720px;
+    }
+
+    .none-green::before {
+
+        height: 160px !important;
+
+    }
+
+    /* ==============================================
+                common  responsive css end
+       ============================================== */
+    /* ==============================================
+                fonts for responsive css start
+       ============================================== */
+    .boldx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .mediumx18-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .regular24-ro {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 22px;
+
+    }
+
+    .mediumx14-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .sblackx62-mon {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .ssmallx14-ro {
+        font-size: 12px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+    }
+
+    .smediumx18l18-ro {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .ssmallx18-mon {
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+
+    .ssmallx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .smediumx24l28-ro {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .sboldx14l18-ro {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .smediumx14l16-ro {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .sboldx22-ro {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .smediumx14-ro {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mediumx10l11-ro {
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    #searchFilters .filter-btn {
+        padding: 14px 96px;
+    }
+
+    /* ==============================================
+                fonts for responsive css end
+       ============================================== */
+
+    /* ==============================================
+                navbar responsive css start
+       ============================================== */
+
+    .navbar .logo img {
+        height: 44px;
+    }
+
+    .navbar button i {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar ul {
+        background: #9BB353;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .navbar .msg-bg {
+        background: #6695B1;
+    }
+
+    .navbar ul li .contact {
+        padding-top: 15px;
+        margin-right: 0;
+    }
+
+    .navbar ul li .profile {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .name {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 15px;
+        padding-top: 35px;
+    }
+
+    .navbar ul li .e-mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 8px 50px;
+    }
+
+    .navbar .mobile {
+        display: none;
+    }
+
+    .navbar .desk {
+        display: block;
+    }
+
+    .navbar .e-mail {
+        width: 34px;
+        height: 34px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .navbar .msg-extra {
+        margin-left: 240px;
+    }
+
+    /* ==============================================
+                navbar responsive css end
+       ============================================== */
+    /* ==============================================
+                nav modal responsive css start
+       ============================================== */
+
+    #changePhoto .modal-dialog {
+        width: 300px;
+        margin: 195px 372px 50px auto;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 300px;
+    }
+
+    #changePhoto .modal-body .changepic-content h2 {
+        padding-bottom: 20px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 125px;
+        height: 125px;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 35px 20px;
+    }
+
+    #changePhoto .remove-photo {
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #changePhoto .changepic-content p {
+        padding-bottom: 20px;
+    }
+
+    /* ==============================================
+                nav modal responsive css end
+       ============================================== */
+
+
+    /* =================================login page start========================== */
+    /* #hts-login {
+      padding-top: 100px;
+    } */
+    #hts-login .login-form {
+        padding-top: 90px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #hts-login .login-title {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .login-form .login-input {
+        width: 100%;
+    }
+
+    #hts-login .login-image img {
+        padding: 60px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #hts-login .flexx-res {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* =================================login page end========================== */
+    /* =================================signin page start========================== */
+    #hts-signup {
+        height: 1150px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 120px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #hts-signup .signup-input {
+        width: 100%;
+    }
+
+    #hts-signup .signup-form-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* =================================signin page end========================== */
+    /* =================================home page start========================== */
+    #hts-login {
+        padding-top: 105px;
+    }
+
+    .welcome-item .item-one {
+        width: 165px;
+        display: inline-block;
+    }
+
+    .welcome-item .items {
+        width: 165px;
+        height: 155px;
+        padding: 85px 25px 10px 25px;
+        text-align: left;
+    }
+
+    .welcome-item .home-flexx-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .welcome-item .item-one p {
+        width: 135px;
+        text-align: left;
+    }
+
+    .hst-res-mt {
+        margin-top: 80px;
+    }
+
+    /* =================================home page end========================== */
+    /* =================================tab responsive start========================== */
+    #tabs-part {
+        padding-top: 130px;
+    }
+
+    #tabs-part .tab-content {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #tabs-part .tab-content::after {
+        background: url(../images/tabs/tab-bg.svg) no-repeat center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+
+    }
+
+    #tabs-part ul li button {
+
+        margin-right: 3px;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 12px;
+        line-height: 22px;
+        padding-top: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 4px;
+    }
+
+    /* number responsive start */
+    .number .widt {
+        width: 120px;
+    }
+
+    .number span {
+        padding: 8px;
+
+    }
+
+    /* number responsive end */
+    .res-number {
+        margin-bottom: 40px;
+    }
+
+    /* selecetor box responsive start */
+    .selector-box .dropdown-div {
+        width: 100%;
+
+    }
+
+    .radio-checkbox {
+        margin-top: 26px;
+        border-radius: 12px;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #646465;
+    }
+
+    .radio-checkbox .label-design {
+        width: 100%;
+
+    }
+
+    .procedure-select {
+        margin-top: 20px;
+    }
+
+
+
+    /* selecetor box responsive end */
+
+    /* ==============================================
+                    procedure responsive css start
+           ============================================== */
+    .main-procedure {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .human-body {
+        margin: auto !important;
+    }
+
+    .information-box {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .information-box .sub-button {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 40px;
+    }
+
+    /* ==============================================
+                    procedure responsive css end
+           ============================================== */
+    /* ==============================================
+                    provider responsive css start
+           ============================================== */
+    .find-provider {
+        padding: 20px;
+    }
+
+    .find-provider .first {
+        flex-direction: column;
+    }
+
+    .find-provider .first .number-one {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .find-provider .city {
+        height: 300px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .information-box .provider-pra {
+
+        width: auto;
+
+    }
+
+    .find-provider a {
+        width: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .find-provider .second .number-one {
+        margin-bottom: 25px;
+    }
+
+    /* ==============================================
+                    provider responsive css end
+           ============================================== */
+    /* =====================provider2 responsive start======================= */
+
+    /* ==============================================
+                 provider2 responsive css start
+       ============================================== */
+    #provider2 {
+
+        padding: 15px;
+
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #provider2 .all-searches {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    #provider2 .search-head {
+        width: 100%;
+        position: relative;
+        padding-right: 0;
+        background: transparent;
+
+    }
+
+    #provider2 .search-head .shead-left {
+        padding-top: 10px;
+    }
+
+    #provider2 .search-head .shead-left .found {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 30px;
+    }
+
+    #provider2 .search-head .shead-right .shead-btn {
+        font-size: 9px;
+        line-height: 9px;
+        padding: 9px 15px;
+        margin-left: 5px;
+    }
+
+    #provider2 .main-search-box {
+        height: 360px;
+        padding-top: 0;
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 100%;
+        padding: 30px 30px 30px 30px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #provider2 .main-search-box .search-box-left {
+        width: 290px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-pragraph {
+        font-size: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        flex-direction: column;
+        text-align: right;
+        width: 90px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-texts {
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 0;
+    }
+
+
+    #provider2 .back-btn-provider {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+
+    #provider2 .back-btn-provider img {
+        margin-right: 5px;
+        width: 15px;
+    }
+
+    /* ==============================================
+                provider2 responsive css end
+        ============================================== */
+
+
+    /* =======================provider2 responsive start===================== */
+    /* =======================provider4 responsive start===================== */
+
+    /* ==============================================
+                    provider4 responsive css start
+            ============================================== */
+    #provider2 .main-search-box .map-search-box {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    #provider2 .main-search-box .one-box {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    #provider2 .main-search-box .map-details-main {
+        margin-top: 20px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box {
+        width: 150px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box .map-pragraph {
+        font-size: 10px;
+        line-height: 18px;
+        width: auto;
+    }
+
+
+
+    /* ==============================================
+                    provider4 responsive css end
+            ============================================== */
+    /* ==============================================
+                    provider filter-modal responsive css start
+            ============================================== */
+
+    #searchFilters .modal-dialog {
+        width: 310px;
+        margin-left: 0;
+        margin-top: 120px;
+        padding: 25px 9px 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #searchFilters .radio-input input[type="radio"]:checked+label {
+        width: 90px;
+    }
+
+    #searchFilters .radio-input label {
+        width: 90px;
+
+    }
+
+    #searchFilters .star-icons span img {
+        width: 10px;
+    }
+
+    #searchFilters .filter-btn {
+        font-size: 12px;
+    }
+
+    /* ==============================================
+                    provider filter-modal responsive css end
+            ============================================== */
+    /* =======================provider4 responsive end===================== */
+    /* ==============================================
+                    benefit responsive css start
+           ============================================== */
+    .benifts {
+
+        padding: 20px;
+    }
+
+    .benifts .plane .calender {
+        margin-top: 30px;
+    }
+
+    .benifts .plane .calender a {
+        width: 100%;
+
+    }
+
+    .benifts .plane .calender a .expand {
+        margin-left: auto;
+    }
+
+    .benifts .plane .deductible {
+        width: 100%;
+
+    }
+
+    .benifts .information {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .benifts .information .info-edit {
+        width: 100%;
+        padding: 18px 0;
+        text-align: center;
+
+    }
+
+    .benifts .information .g-info .datas {
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 0;
+    }
+
+    .benifts .upload {
+        margin-top: 20px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+    }
+
+    .benifts .upload .attachment-btn {
+        width: 100%;
+    }
+
+    .benifts .upload input,
+    .benifts .upload [type="file"]+label {
+        width: 100%;
+
+    }
+
+    .benifts .upload .upload-send {
+        width: 100%;
+    }
+
+
+    /* ==============================================
+                    benefit responsive css end
+           ============================================== */
+    /* ==============================================
+                    pan responsive css start
+           ============================================== */
+    .plan {
+        padding-top: 40px;
+        padding-left: 70px;
+    }
+
+    .plan .one {
+        width: 275px
+    }
+
+    /* ==============================================
+                    pan responsive css end
+           ============================================== */
+    /* ==============================================
+                    pricing responsive css start
+           ============================================== */
+
+    .pricing {
+        padding-top: 30px;
+        padding-left: 70px;
+    }
+
+    .pricing .price-logo {
+        width: 260px;
+        height: 40px;
+    }
+
+    .pricing .drug-name input {
+        width: 275px;
+    }
+
+    .pricing .main .zip input {
+        width: 135px;
+    }
+
+    .pricing .main .search button {
+        padding: 13px 40px;
+    }
+
+    .pricing h5 {
+        width: 280px;
+    }
+
+    /* ==============================================
+                    pricing responsive css end
+           ============================================== */
+
+    /* =================================tab responsive end========================== */
+    /* ================================message responsive start====================== */
+    /* ==============================================
+                    message responsive css start
+           ============================================== */
+    #myTabContent .hst-mymessage {
+        padding: 20px;
+    }
+
+    #myTabContent .message-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 100%;
+        height: 299px;
+        padding: 20px 10px 0 10px;
+        scrollbar-color: #AFC95F transparent;
+    }
+
+    #myTabContent .left .message-info {
+        padding-right: 30px;
+    }
+
+    #myTabContent .right .message-info {
+        padding-left: 50px;
+    }
+
+    #myTabContent .message-info .message-text {
+        width: auto;
+        padding: 10px 8px;
+    }
+
+    #myTabContent .messages-content .user-image {
+        width: 90px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 100%;
+    }
+
+    #myTabContent .message-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    /* ==============================================
+                    message responsive css end
+           ============================================== */
+    /* ==============================================
+                    message-change responsive css start
+           ============================================== */
+    #myTabContent .hst-loginDetails {
+        padding: 50px 10px 20px 70px;
+    }
+
+    #myTabContent .change-inputs {
+        width: 275px;
+
+    }
+
+    #myTabContent .change-btn {
+        width: 130px;
+        padding: 13px 0;
+        margin: 0 0 0 0;
+    }
+
+    #myTabContent .login-changeEmail .newPassword-text {
+        width: 280px;
+    }
+
+    #myTabContent .hst-loginDetails .login-changeEmail {
+        padding-bottom: 30px;
+    }
+
+    #myTabContent .hst-loginDetails .login-pad-bt {
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================
+                    message-change responsive css end
+           ============================================== */
+    /* ====================================================
+             message-membar-info responsive css start
+     =================================================== */
+
+    #myTabContent .hst-memerbInfo {
+        padding: 50px 0px 0px 70px;
+    }
+
+    #myTabContent .hst-memerbInfo .mem-info-nopad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 40px 30px 0px 50px;
+    }
+
+    /* ====================================================
+             message-membar-info responsive css end
+     =================================================== */
+    /* ====================================================
+             message-modal responsive css start
+     =================================================== */
+    #hstuserpopup .modal-dialog {
+        width: 300px;
+        top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 300px;
+
+    }
+
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 110px;
+        height: 110px;
+    }
+
+    /* ====================================================
+             message-modal responsive css end
+     =================================================== */
+
+
+    /* =================================message responsive end======================== */
+
+
+
+
+
+
+    /* ==============================================
+                footer responsive css start
+       ============================================== */
+    #footer-part {
+        text-align: center;
+
+    }
+
+    #footer-part .main {
+        flex-direction: column;
+    }
+
+    #footer-part .term {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer-part .main .term a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                footer responsive css end
+       ============================================== */
+
+
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ==============================================
+                common  responsive css start
+       ============================================== */
+    .hst-btn {
+        width: 450px;
+    }
+
+    .hst-mt-59 {
+        margin-top: 40px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .desk-none {
+        display: block;
+    }
+
+    .bg-shape1 {
+        width: 909px;
+        height: 203px;
+    }
+
+    .green-screen {
+        height: 100vmax;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -80px;
+        height: 610px;
+        width: 1079px;
+        background-size: 520px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1540px;
+    }
+
+
+    .bg-shape3 {
+        width: 818px;
+    }
+
+    .blue-screen {
+        height: 100vmax;
+    }
+
+    .blue-screen::after {
+        background-size: 1277px;
+        height: 709px;
+        width: 717px;
+    }
+
+    .none-green::before {
+
+        height: 160px !important;
+
+    }
+
+    /* ==============================================
+                common  responsive css end
+       ============================================== */
+    /* ==============================================
+                fonts for responsive css start
+       ============================================== */
+
+
+    .mediumx18-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .regular24-ro {
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 22px;
+
+    }
+
+    .mediumx14-ro {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+    .sblackx62-mon {
+        font-size: 48px;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .ssmallx14-ro {
+        font-size: 12px;
+    }
+
+    .smediumx24-ro {
+        font-size: 22px;
+    }
+
+    .smediumx18l18-ro {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .ssmallx18-mon {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .ssmallx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .smediumx24l28-ro {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .sboldx14l18-ro {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .smediumx14l16-ro {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .sboldx22-ro {
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .smediumx14-ro {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mediumx10l11-ro {
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    #searchFilters .filter-btn {
+        padding: 14px 96px;
+    }
+
+    /* ==============================================
+                fonts for responsive css end
+       ============================================== */
+
+    /* ==============================================
+                navbar responsive css start
+       ============================================== */
+
+    .navbar .logo img {
+        height: 44px;
+    }
+
+    .navbar button i {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar ul {
+        background: #9BB353;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .navbar .msg-bg {
+        background: #6695B1;
+    }
+
+    .navbar ul li .contact {
+        padding-top: 15px;
+        margin-right: 0;
+    }
+
+    .navbar ul li .profile {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+    .navbar ul li .profile .name {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 15px;
+        padding-top: 35px;
+    }
+
+    .navbar ul li .e-mail {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 8px 50px;
+    }
+
+    .navbar .mobile {
+        display: none;
+    }
+
+    .navbar .desk {
+        display: block;
+    }
+
+    .navbar .e-mail {
+        width: 34px;
+        height: 34px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .navbar .msg-extra {
+        margin-left: 420px;
+    }
+
+    /* ==============================================
+                navbar responsive css end
+       ============================================== */
+    /* ==============================================
+                nav modal responsive css start
+       ============================================== */
+
+    #changePhoto .modal-dialog {
+        width: 300px;
+        margin: 195px 372px 50px auto;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 300px;
+    }
+
+    #changePhoto .modal-body .changepic-content h2 {
+        padding-bottom: 20px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 125px;
+        height: 125px;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 35px 20px;
+    }
+
+    #changePhoto .remove-photo {
+        width: 100%;
+        padding: 14px 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #changePhoto .changepic-content p {
+        padding-bottom: 20px;
+    }
+
+    /* ==============================================
+                nav modal responsive css end
+       ============================================== */
+
+
+    /* =================================login page start========================== */
+
+    #hts-login .login-form {
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #hts-login .login-title {
+        padding-top: 15px;
+
+    }
+
+    .login-form .login-input {
+        width: 450px;
+    }
+
+    #hts-login .login-image {
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hts-login .login-image img {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #hts-login .flexx-res {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    /* =================================login page end========================== */
+    /* =================================signin page start========================== */
+    #hts-signup {
+        height: 830px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 120px;
+    }
+
+    #hts-signup .signup-input {
+        width: 100%;
+    }
+
+    #hts-signup .signup-form-btn {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    /* =================================signin page end========================== */
+    /* =================================home page start========================== */
+    #hts-login {
+        padding-top: 105px;
+    }
+
+
+
+    .welcome-item .items {
+
+        text-align: left;
+    }
+
+    .welcome-item .home-flexx-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .welcome-item .item-one p {
+
+        text-align: left;
+    }
+
+    .hst-res-mt {
+        margin-top: 30px;
+    }
+
+    /* =================================home page end========================== */
+    /* =================================tab responsive start========================== */
+    #tabs-part {
+        padding-top: 130px;
+    }
+
+    #tabs-part .tab-content {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #tabs-part .tab-content::after {
+        background: url(../images/tabs/tab-bg.svg) no-repeat center;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+
+    }
+
+    #tabs-part ul li button {
+
+        margin-right: 3px;
+        padding: 12px 20px;
+        margin-top: 10px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 4px;
+    }
+
+    /* number responsive start */
+    .number .widt {
+        width: 120px;
+    }
+
+    .number span {
+        padding: 8px;
+
+    }
+
+    /* number responsive end */
+    .res-number {
+        margin-bottom: 40px;
+    }
+
+    /* selecetor box responsive start */
+    .selector-box .dropdown-div {
+        width: 100%;
+
+    }
+
+    .radio-checkbox {
+        margin-top: 26px;
+        border-radius: 12px;
+        background: #fff;
+        width: 100%;
+        border: 1px solid #646465;
+    }
+
+    .radio-checkbox .label-design {
+        width: 100%;
+
+    }
+
+    .procedure-select {
+        margin-top: 20px;
+    }
+
+
+
+    /* selecetor box responsive end */
+
+    /* ==============================================
+                    procedure responsive css start
+           ============================================== */
+    .human-body {
+        margin: auto !important;
+    }
+
+    .information-box {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .information-box .sub-button {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .main-procedure {
+        padding: 20px 60px 30px 60px;
+
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 40px;
+    }
+
+    /* ==============================================
+                    procedure responsive css end
+           ============================================== */
+    /* ==============================================
+                    provider responsive css start
+           ============================================== */
+    .find-provider {
+        padding: 20px 60px 30px 60px;
+    }
+
+    .find-provider .first {
+        flex-direction: column;
+    }
+
+    .find-provider .first .number-one {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .find-provider .city {
+        height: 300px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .information-box .provider-pra {
+
+        width: auto;
+
+    }
+
+    .find-provider a {
+        width: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .find-provider .second .number-one {
+        margin-bottom: 25px;
+    }
+
+    /* ==============================================
+                    provider responsive css end
+           ============================================== */
+    /* =====================provider2 responsive start======================= */
+
+    /* ==============================================
+                 provider2 responsive css start
+       ============================================== */
+    #provider2 {
+        padding-right: 0;
+        padding: 20px 40px 30px 40px;
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #provider2 .all-searches {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    #provider2 .search-head {
+        width: 100%;
+        position: absolute;
+        background: #F0F0F0;
+        width: 584px;
+        padding-right: 28px;
+
+    }
+
+    #provider2 .search-head .shead-left {
+        padding-top: 10px;
+    }
+
+    #provider2 .search-head .shead-left .found {
+        font-size: 13px;
+        line-height: 16px;
+        margin-right: 40px;
+    }
+
+    #provider2 .search-head .shead-right .shead-btn {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 10px 20px;
+        margin-left: 5px;
+    }
+
+    #provider2 .main-search-box {
+        height: 385px;
+
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 555px;
+        padding: 30px 30px 30px 30px;
+
+    }
+
+    #provider2 .main-search-box .search-box-left {
+        width: 290px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #provider2 .main-search-box .search-box-left .sbox-pragraph {
+        font-size: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        flex-direction: column;
+        text-align: right;
+        width: 90px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-texts {
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 0;
+    }
+
+
+    #provider2 .back-btn-provider {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+
+    #provider2 .back-btn-provider img {
+        margin-right: 5px;
+        width: 15px;
+    }
+
+    /* ==============================================
+                provider2 responsive css end
+        ============================================== */
+
+
+    /* =======================provider2 responsive start===================== */
+    /* =======================provider4 responsive start===================== */
+
+    /* ==============================================
+                    provider4 responsive css start
+            ============================================== */
+    #provider2 .main-search-box .map-search-box {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 555px;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    #provider2 .main-search-box .one-box {
+        width: 555px;
+        padding: 30px 30px;
+    }
+
+    #provider2 .main-search-box .map-details-main {
+        margin-top: 20px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box {
+        width: 150px;
+    }
+
+    #provider2 .main-search-box .map-details-main .map-details-box .map-pragraph {
+        font-size: 10px;
+        line-height: 18px;
+        width: auto;
+    }
+
+
+
+    /* ==============================================
+                    provider4 responsive css end
+            ============================================== */
+    /* ==============================================
+                    provider filter-modal responsive css start
+            ============================================== */
+
+    #searchFilters .modal-dialog {
+        width: 310px;
+        margin-left: 0;
+        margin-top: 120px;
+        padding: 25px 9px 25px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #searchFilters .radio-input input[type="radio"]:checked+label {
+        width: 90px;
+    }
+
+    #searchFilters .radio-input label {
+        width: 90px;
+
+    }
+
+    #searchFilters .star-icons span img {
+        width: 10px;
+    }
+
+    #searchFilters .filter-btn {
+        font-size: 12px;
+    }
+
+    /* ==============================================
+                    provider filter-modal responsive css end
+            ============================================== */
+    /* =======================provider4 responsive end===================== */
+    /* ==============================================
+                    benefit responsive css start
+           ============================================== */
+    .benifts {
+        padding-top: 10px;
+        padding-left: 0;
+        padding: 20px 60px 30px 60px;
+    }
+
+    .benifts .plane .calender {
+        margin-top: 30px;
+    }
+
+    .benifts .plane .calender a {
+        width: 100%;
+
+    }
+
+    .benifts .plane .calender a .expand {
+        margin-left: auto;
+    }
+
+    .benifts .plane .deductible {
+        width: 100%;
+
+    }
+
+    .benifts .information {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .benifts .information .info-edit {
+        width: 100%;
+        padding: 18px 0;
+        text-align: center;
+
+    }
+
+    .benifts .information .g-info .datas {
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 0;
+    }
+
+    .benifts .upload {
+        margin-top: 20px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+    }
+
+    .benifts .upload .attachment-btn {
+        width: 100%;
+    }
+
+    .benifts .upload input,
+    .benifts .upload [type="file"]+label {
+        width: 100%;
+
+    }
+
+    .benifts .upload .upload-send {
+        width: 100%;
+    }
+
+
+    /* ==============================================
+                    benefit responsive css end
+           ============================================== */
+    /* ==============================================
+                    pan responsive css start
+           ============================================== */
+    .plan {
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+    }
+
+    .plan .one {
+        width: 275px
+    }
+
+    /* ==============================================
+                    pan responsive css end
+           ============================================== */
+    /* ==============================================
+                    pricing responsive css start
+           ============================================== */
+
+    .pricing {
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+    }
+
+    .pricing .price-logo {
+        width: 260px;
+        height: 40px;
+    }
+
+    .pricing .drug-name input {
+        width: 275px;
+    }
+
+    .pricing .main .zip input {
+        width: 135px;
+    }
+
+    .pricing .main .search button {
+        padding: 13px 40px;
+    }
+
+    .pricing h5 {
+        width: 280px;
+    }
+
+    /* ==============================================
+                    pricing responsive css end
+           ============================================== */
+
+    /* =================================tab responsive end========================== */
+    /* ================================message responsive start====================== */
+    /* ==============================================
+                    message responsive css start
+           ============================================== */
+    #myTabContent .hst-mymessage {
+        padding: 20px 60px 30px 60px;
+    }
+
+    #myTabContent .message-left {
+        width: 475px;
+        height: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 530px;
+        margin-bottom: 20px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 570px;
+        height: 299px;
+        padding: 20px 50px 0 5px;
+        scrollbar-color: #AFC95F transparent;
+    }
+
+    #myTabContent .message-showbox .left {
+        width: 400px;
+
+    }
+
+    #myTabContent .message-showbox .right {
+        width: 400px;
+
+    }
+
+    #myTabContent .left .message-info {
+        padding-right: 30px;
+    }
+
+    #myTabContent .right .message-info {
+        padding-left: 50px;
+    }
+
+    #myTabContent .message-info .message-text {
+        width: auto;
+        padding: 10px 8px;
+    }
+
+    #myTabContent .messages-content .user-image {
+        width: 90px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 530px;
+    }
+
+    #myTabContent .message-btn {
+        width: 530px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    /* ==============================================
+                    message responsive css end
+           ============================================== */
+    /* ==============================================
+                    message-change responsive css start
+           ============================================== */
+    #myTabContent .hst-loginDetails {
+        padding: 30px 0px 20px 35px;
+    }
+
+    #myTabContent .change-inputs {
+        width: 275px;
+
+    }
+
+    #myTabContent .change-btn {
+        width: 130px;
+        padding: 13px 0;
+        margin: 0 0 0 0;
+    }
+
+    #myTabContent .login-changeEmail .newPassword-text {
+        width: 280px;
+    }
+
+    #myTabContent .hst-loginDetails .login-changeEmail {
+        padding-bottom: 30px;
+    }
+
+    #myTabContent .hst-loginDetails .login-pad-bt {
+        margin-bottom: 50px;
+    }
+
+    /* ==============================================
+                    message-change responsive css end
+           ============================================== */
+    /* ====================================================
+             message-membar-info responsive css start
+     =================================================== */
+
+    #myTabContent .hst-memerbInfo {
+        padding: 30px 0px 25px 35px;
+    }
+
+    #myTabContent .hst-memerbInfo .mem-info-nopad {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 30px 30px 0px 30px;
+    }
+
+    /* ====================================================
+             message-membar-info responsive css end
+     =================================================== */
+    /* ====================================================
+             message-modal responsive css start
+     =================================================== */
+    #hstuserpopup .modal-dialog {
+        width: 300px;
+        top: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 300px;
+
+    }
+
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 110px;
+        height: 110px;
+    }
+
+    /* ====================================================
+             message-modal responsive css end
+     =================================================== */
+
+
+    /* =================================message responsive end======================== */
+
+
+
+
+
+
+    /* ==============================================
+                footer responsive css start
+       ============================================== */
+
+
+
+
+
+
+
+    /* ==============================================
+                footer responsive css end
+       ============================================== */
+
+
+
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* =========================================== 
+         common responsive css start
+  =========================================== */
+
+    .hst-mt-59 {
+        margin-top: 70px;
+    }
+
+    .hst-mt-59-2 {
+        margin-top: 135px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+    }
+
+    #tabs-part ul li button {
+        padding: 13px 30px;
+
+    }
+
+    #tabs-part .tab-content {
+        height: 635px;
+        padding-bottom: 30px;
+        place-content: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .green-screen {
+        height: 100vh;
+    }
+
+    .bg-shape1 {
+        width: 900px;
+        height: 270px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 630px;
+        width: 1079px;
+        background-size: 560px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1719px;
+    }
+
+    .blue-screen {
+        height: 100vh;
+    }
+
+    .bg-shape3 {
+        width: 943px;
+    }
+
+    .blue-screen::after {
+        background-size: 1395px;
+        height: 738px;
+        width: 1126px;
+    }
+
+    .none-green::before {
+
+        height: 160px !important;
+
+    }
+
+    /* =========================================== 
+         common responsive css end
+  =========================================== */
+    /* =========================================== 
+         font responsive css start
+  =========================================== */
+    .small-mon {
+        font-size: 12px;
+
+    }
+
+    .boldx18-ro {
+        font-size: 14px;
+        line-height: 18px;
+
+
+    }
+
+    .boldx14-ro {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .ssmallx18-mon {
+        font-size: 15px;
+        line-height: 18px;
+
+
+    }
+
+    .sblackx62-mon {
+        font-size: 44px;
+        line-height: 90.1%;
+
+    }
+
+    .mediumx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .regular24-ro {
+        font-size: 22px;
+        line-height: 24px;
+
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .smediumx14-ro {
+        font-size: 14px;
+        line-height: 12px;
+
+    }
+
+    /* =========================================== 
+         font responsive css end
+  =========================================== */
+    /* =========================================== 
+         navbar responsive css start
+  =========================================== */
+    .navbar .logo {
+        width: 170px;
+    }
+
+    .navbar .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar ul li .contact img {
+        margin-right: 5px;
+        width: 20px;
+    }
+
+    .navbar ul li .profile {
+        margin-left: 65px;
+    }
+
+    .navbar ul li .profile .name {
+        margin-right: 15px;
+
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .image .edit-pro {
+        bottom: 1px;
+        left: -2px;
+    }
+
+    .navbar ul li .contact {
+        margin-right: 10px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        padding: 10px 20px;
+        margin-left: 12px;
+    }
+
+    .navbar .e-mail {
+        width: 35px;
+        height: 35px;
+        margin-left: 12px;
+    }
+
+    .navbar .e-mail img {
+        width: 20px;
+        height: 14px;
+    }
+
+    /* =========================================== 
+         navbar responsive css end
+  =========================================== */
+    /* ====================home page responsive start============== */
+
+    /* =========================================== 
+         welcome responsive css start
+  =========================================== */
+    #hts-login .login-image {
+        width: 598px;
+        height: 540px;
+        margin-left: 15px;
+    }
+
+    #hts-login .login-image img {
+        width: 100%;
+        height: 100%;
+        padding: 0 0px 0px 0;
+    }
+
+    .welcome-item .item-one {
+        width: 140px;
+        height: 140px;
+    }
+
+    .welcome-item .items {
+        width: 140px;
+        height: 140px;
+        padding: 80px 30px 20px 20px;
+    }
+
+    .welcome-item .item-one p {
+        width: 143px;
+    }
+
+
+    /* =========================================== 
+         welcome responsive css end
+  =========================================== */
+    /* =========================================== 
+         sign up responsive css start
+  =========================================== */
+    #hts-signup {
+        height: 640px;
+    }
+
+    #hts-signup .signup-input {
+        width: 220px;
+
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 200px;
+    }
+
+    /* =========================================== 
+         sign up responsive css end
+  =========================================== */
+    /* =========================================== 
+         provider responsive css start
+  =========================================== */
+    .find-provider {
+        padding-left: 0;
+        padding-top: 10px;
+
+    }
+
+    .find-provider .city {
+        width: 170px;
+        height: 170px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .find-provider .second .information-box {
+
+        padding-left: 117px;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 30px;
+    }
+
+    .find-provider .selector-box .dropdown-div {
+        width: 235px;
+
+    }
+
+    .find-provider .radio-checkbox .label-design {
+
+        width: 235px;
+
+    }
+
+    .find-provider .radio-checkbox {
+
+        width: 237px;
+
+    }
+
+    .find-provider .information-box .provider-pra {
+
+        width: 235px;
+
+    }
+
+    .find-provider .information-box .sub-button {
+        width: 235px;
+        padding: 14px 0;
+
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 80px;
+    }
+
+    .find-provider .information-box {
+        margin-top: 10px;
+    }
+
+    .find-provider .second .information-box {
+        padding-left: 10px;
+    }
+
+    /* =========================================== 
+         provider responsive css end
+  =========================================== */
+    /* =========================================== 
+         provider2 responsive css start
+  =========================================== */
+    #provider2 .search-head {
+        width: 600px;
+
+    }
+
+    #provider2 .hospital-image {
+        width: 200px;
+
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 580px;
+
+
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        padding-top: 5px;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-texts {
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-bold {
+        margin-bottom: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-bottom: 10px;
+    }
+
+    /* =========================================== 
+         provider2 responsive css end
+  =========================================== */
+    /* =========================================== 
+         provider4 responsive css start
+  =========================================== */
+    #provider2 .map-search-head {
+        width: 657px;
+        padding-right: 18px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 595px;
+        height: 415px;
+    }
+
+    #provider2 .map-main-search-box {
+        width: 665px;
+        height: 498px;
+        padding-right: 30px;
+    }
+
+
+    /* =========================================== 
+         provider4 responsive css end
+  =========================================== */
+    /* =========================================== 
+         benefit responsive css start
+  =========================================== */
+
+    .benifts {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .benifts .plane .calender a {
+        width: auto;
+
+    }
+
+    .benifts .plane .deductible {
+        width: auto;
+
+    }
+
+    .benifts .information {
+        width: auto;
+    }
+
+    .benifts .information .info-edit {
+        font-size: 12px;
+        padding: 18px 85px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 60px;
+    }
+
+    /* =========================================== 
+         benefit responsive css end
+  =========================================== */
+    /* =========================================== 
+         plan responsive css start
+  =========================================== */
+
+    .plan {
+        padding-top: 60px;
+        padding-left: 120px;
+    }
+
+    /* =========================================== 
+         plan responsive css end
+  =========================================== */
+    /* =========================================== 
+         pricing responsive css start
+  =========================================== */
+
+    .pricing {
+        padding-top: 45px;
+        padding-left: 105px;
+        padding-bottom: 0;
+    }
+
+    /* =========================================== 
+         pricing responsive css end
+  =========================================== */
+
+
+    /* ====================home page responsive end============== */
+    /* ====================message page responsive start============== */
+
+    /* =========================================== 
+           message responsive css end
+    =========================================== */
+
+    #myTabContent .hst-mymessage {
+        padding: 40px 0px 40px 0px;
+    }
+
+    #myTabContent .message-left {
+        width: 310px;
+        height: 235px;
+        margin-bottom: 144px;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+
+        padding: 17px 0px 0px 0;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 578px;
+
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 600px;
+        padding: 28px 32px 5px 15px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 578px;
+    }
+
+    /* =========================================== 
+           message responsive css end
+    =========================================== */
+    /* =========================================== 
+           message-info responsive css start
+    =========================================== */
+    #myTabContent .hst-memerbInfo {
+        padding: 20px 0 20px 30px;
+    }
+
+    /* =========================================== 
+           message-info responsive css end
+    =========================================== */
+    /* =========================================== 
+           message-term responsive css start
+    =========================================== */
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 20px 20px 20px 20px;
+    }
+
+    /* =========================================== 
+           message-term responsive css end
+    =========================================== */
+    /* ====================message page responsive end============== */
+
+
+    /* =========================================== 
+             provide-modal responsive css start
+      =========================================== */
+    #searchFilters .modal-dialog {
+        margin-top: 160px;
+        margin-left: 594px;
+    }
+
+    /* =========================================== 
+             provide-modal responsive css end
+      =========================================== */
+    /* =========================================== 
+             profile-modal responsive css start
+      =========================================== */
+
+    #changePhoto .modal-dialog {
+        width: 374px;
+        margin: 130px 0px 50px auto;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 40px 30px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 370px;
+    }
+
+    /* =========================================== 
+             profile-modal responsive css end
+      =========================================== */
+    /* =========================================== 
+             msg-info-modal responsive css start
+      =========================================== */
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    #hstuserpopup .modal-dialog {
+
+        top: 132px;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 360px;
+    }
+
+    /* =========================================== 
+             msg-info-modal responsive css end
+      =========================================== */
+
+
+
+
+}
+
+
+/*  X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* =========================================== 
+             common responsive css start
+      =========================================== */
+
+    .hst-mt-59 {
+        margin-top: 55px;
+    }
+
+    .hst-mt-59-2 {
+        margin-top: 111px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+    }
+
+    #tabs-part ul li button {
+        padding: 13px 40px;
+
+    }
+
+    #tabs-part .tab-content {
+        height: 635px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .green-screen {
+        height: 100vh;
+    }
+
+    .bg-shape1 {
+        width: 1119px;
+        height: 235px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 630px;
+        width: 1079px;
+        background-size: 630px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1719px;
+    }
+
+    .blue-screen {
+        height: 100vh;
+    }
+
+    .bg-shape3 {
+        width: 1080px;
+    }
+
+    .blue-screen::after {
+        background-size: 2192px;
+        height: 738px;
+        width: 1126px;
+    }
+
+    .none-green::before {
+
+        height: 160px !important;
+
+    }
+
+    /* =========================================== 
+             common responsive css end
+      =========================================== */
+    /* =========================================== 
+             font responsive css start
+      =========================================== */
+    .small-mon {
+        font-size: 12px;
+
+    }
+
+    .boldx18-ro {
+        font-size: 14px;
+        line-height: 18px;
+
+
+    }
+
+    .boldx14-ro {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .ssmallx18-mon {
+        font-size: 15px;
+        line-height: 18px;
+
+
+    }
+
+    .sblackx62-mon {
+        font-size: 49px;
+        line-height: 60.1%;
+    }
+
+    .mediumx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .regular24-ro {
+        font-size: 22px;
+        line-height: 24px;
+
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .smediumx14-ro {
+        font-size: 14px;
+        line-height: 12px;
+
+    }
+
+    /* =========================================== 
+             font responsive css end
+      =========================================== */
+    /* =========================================== 
+             navbar responsive css start
+      =========================================== */
+    .navbar .logo {
+        width: 170px;
+    }
+
+    .navbar .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar ul li .contact img {
+        margin-right: 8px;
+        width: 20px;
+    }
+
+    .navbar ul li .profile {
+        margin-left: 190px;
+    }
+
+    .navbar ul li .profile .name {
+        margin-right: 15px;
+
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .image .edit-pro {
+        bottom: 1px;
+        left: -2px;
+    }
+
+    .navbar ul li .contact {
+        margin-right: 15px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        padding: 10px 30px;
+        margin-left: 20px;
+    }
+
+    .navbar .e-mail {
+        width: 35px;
+        height: 35px;
+        margin-left: 15px;
+    }
+
+    .navbar .e-mail img {
+        width: 20px;
+        height: 14px;
+    }
+
+    /* =========================================== 
+             navbar responsive css end
+      =========================================== */
+    /* ====================home page responsive start============== */
+
+    /* =========================================== 
+             welcome responsive css start
+      =========================================== */
+    #hts-login .login-image {
+        width: 645px;
+        height: 500px;
+        margin-left: 15px;
+    }
+
+    #hts-login .login-image img {
+        width: 100%;
+        height: 100%;
+        padding: 0 0px 0px 0;
+    }
+
+    .welcome-item .item-one {
+        width: 170px;
+        height: 170px;
+    }
+
+    .welcome-item .items {
+        width: 170px;
+        height: 150px;
+        padding: 80px 30px 20px 20px;
+    }
+
+    .welcome-item .item-one p {
+        width: 143px;
+    }
+
+
+    /* =========================================== 
+             welcome responsive css end
+      =========================================== */
+    /* =========================================== 
+             login responsive css start
+      =========================================== */
+    #hts-login .login-form {
+        padding-top: 110px;
+    }
+
+    #hts-login .login-page-img {
+        width: 610px;
+        height: 500px;
+        margin-left: 15px;
+    }
+
+    /* =========================================== 
+             login responsive css end
+      =========================================== */
+    /* =========================================== 
+             sign up responsive css start
+      =========================================== */
+    #hts-signup {
+        height: 700px;
+    }
+
+    #hts-signup .signup-input {
+        width: 260px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 240px;
+    }
+
+    /* =========================================== 
+             sign up responsive css end
+      =========================================== */
+    /* =========================================== 
+             provider responsive css start
+      =========================================== */
+    .find-provider {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .find-provider .city {
+        width: 215px;
+        height: 218px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .find-provider .second .information-box {
+
+        padding-left: 117px;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 30px;
+    }
+
+    .find-provider .selector-box .dropdown-div {
+        width: 280px;
+    }
+
+    .find-provider .radio-checkbox .label-design {
+        width: 280px;
+    }
+
+    .find-provider .radio-checkbox {
+        width: 281px;
+    }
+
+    .find-provider .information-box .provider-pra {
+        width: 280px;
+    }
+
+    .find-provider .information-box .sub-button {
+        width: 280px;
+        padding: 14px 0;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 80px;
+    }
+
+    .find-provider .information-box {
+        margin-top: 5px;
+    }
+
+    .find-provider .second .information-box {
+        padding-left: 10px;
+    }
+
+    /* =========================================== 
+             provider responsive css end
+      =========================================== */
+    /* =========================================== 
+             provider2 responsive css start
+      =========================================== */
+    #provider2 {
+
+        padding-right: 0;
+        padding-top: 15px;
+    }
+
+    #provider2 .search-head {
+        width: 749px;
+        padding-right: 24px;
+    }
+
+    #provider2 .hospital-image {
+        width: 260px;
+        height: 275px;
+
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 725px;
+
+
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        padding-top: 5px;
+
+        text-align: right;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        margin-left: 0;
+
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-bold {
+        margin-bottom: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-bottom: 10px;
+        margin-left: 12px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 14px;
+    }
+
+    /* =========================================== 
+             provider2 responsive css end
+      =========================================== */
+    /* =========================================== 
+             provider4 responsive css start
+      =========================================== */
+    #provider2 .map-search-head {
+        width: 772px;
+        padding-right: 18px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 595px;
+        height: 415px;
+    }
+
+    #provider2 .map-main-search-box {
+        width: 780px;
+        height: 498px;
+        padding-right: 30px;
+    }
+
+    #provider2 .main-search-box .one-box {
+        padding: 15px 15px;
+        height: 190px;
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 35px;
+    }
+
+    /* =========================================== 
+             provider4 responsive css end
+      =========================================== */
+    /* =========================================== 
+             benefit responsive css start
+      =========================================== */
+
+    .benifts {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+
+    .benifts .information {
+        width: auto;
+    }
+
+    .benifts .information .info-edit {
+        font-size: 14px;
+        padding: 18px 105px;
+    }
+
+    .benifts .upload {
+        padding-left: 15px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 100px;
+    }
+
+    /* =========================================== 
+             benefit responsive css end
+      =========================================== */
+    /* =========================================== 
+             plan responsive css start
+      =========================================== */
+
+    .plan {
+        padding-top: 60px;
+        padding-left: 120px;
+    }
+
+    /* =========================================== 
+             plan responsive css end
+      =========================================== */
+    /* =========================================== 
+             pricing responsive css start
+      =========================================== */
+
+    .pricing {
+        padding-top: 45px;
+        padding-left: 105px;
+        padding-bottom: 0;
+    }
+
+    /* =========================================== 
+             pricing responsive css end
+      =========================================== */
+
+
+    /* ====================home page responsive end============== */
+    /* ====================message page responsive start============== */
+
+    /* =========================================== 
+               message responsive css end
+        =========================================== */
+
+    #myTabContent .hst-mymessage {
+        padding: 40px 0px 40px 0px;
+    }
+
+    #myTabContent .message-left {
+        width: 380px;
+        height: 285px;
+        margin-bottom: 95px;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 17px 0px 0px 12px;
+    }
+
+    #myTabContent .message-right .msg-for-border {
+        width: 657px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+        width: 680px;
+        padding: 28px 32px 5px 15px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 657px;
+    }
+
+    /* =========================================== 
+               message responsive css end
+        =========================================== */
+    /* =========================================== 
+               message-info responsive css start
+        =========================================== */
+    #myTabContent .hst-memerbInfo {
+        padding: 20px 0 20px 40px;
+    }
+
+    #myTabContent .hst-memerbInfo .mem-info-nopad {
+        padding-left: 0 !important;
+    }
+
+    /* =========================================== 
+               message-info responsive css end
+        =========================================== */
+    /* =========================================== 
+               message-term responsive css start
+        =========================================== */
+    #myTabContent .hst-termsUse .termsUse-content {
+        padding-right: 20px;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 20px 20px 20px 30px;
+    }
+
+    /* =========================================== 
+               message-term responsive css end
+        =========================================== */
+    /* ====================message page responsive end============== */
+
+
+    /* =========================================== 
+                 provide-modal responsive css start
+          =========================================== */
+    #searchFilters .modal-dialog {
+        margin-top: 186px;
+        margin-left: 740px;
+    }
+
+    /* =========================================== 
+                 provide-modal responsive css end
+          =========================================== */
+    /* =========================================== 
+                 profile-modal responsive css start
+          =========================================== */
+
+    #changePhoto .modal-dialog {
+        width: 374px;
+        margin: 130px 0px 50px auto;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 40px 30px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 370px;
+    }
+
+    /* =========================================== 
+                 profile-modal responsive css end
+          =========================================== */
+    /* =========================================== 
+                 msg-info-modal responsive css start
+          =========================================== */
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    #hstuserpopup .modal-dialog {
+
+        top: 132px;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 360px;
+    }
+
+    /* =========================================== 
+                 msg-info-modal responsive css end
+          =========================================== */
+
+
+
+
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    /* =========================================== 
+                 common responsive css start
+          =========================================== */
+
+    .hst-mt-59 {
+        margin-top: 55px;
+    }
+
+    .hst-mt-59-2 {
+        margin-top: 95px;
+    }
+
+    #tabs-part ul li .active {
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 15px;
+    }
+
+    #tabs-part ul li button {
+        padding: 13px 55px;
+    }
+
+    #tabs-part .tab-content {
+        height: 635px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .green-screen {
+        height: 100vh;
+    }
+
+    .bg-shape1 {
+        width: 1226px;
+        height: 300px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 633px;
+        width: 1079px;
+        background-size: 690px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1375px;
+        background-size: 1900px;
+    }
+
+    .blue-screen {
+        height: 100vh;
+    }
+
+    .bg-shape3 {
+        width: 1299px;
+        height: 200px;
+    }
+
+    .blue-screen::after {
+        background-size: 2290px;
+        height: 849px;
+        width: 1301px;
+    }
+
+    .none-green::before {
+
+        height: 180px !important;
+        width: 1600px !important;
+
+    }
+
+    /* =========================================== 
+                 common responsive css end
+          =========================================== */
+    /* =========================================== 
+                 font responsive css start
+          =========================================== */
+    .small-mon {
+        font-size: 12px;
+
+    }
+
+    .boldx18-ro {
+        font-size: 14px;
+        line-height: 18px;
+
+
+    }
+
+    .boldx14-ro {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .smediumx24-ro {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .ssmallx18-mon {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .sblackx62-mon {
+        font-size: 55px;
+        line-height: 60.1%;
+    }
+
+    .mediumx18-ro {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .regular24-ro {
+        font-size: 22px;
+        line-height: 24px;
+
+
+    }
+
+    .mediumx12-ro {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .smediumx14-ro {
+        font-size: 14px;
+        line-height: 12px;
+
+    }
+
+    /* =========================================== 
+                 font responsive css end
+          =========================================== */
+    /* =========================================== 
+                 navbar responsive css start
+          =========================================== */
+    .navbar .logo {
+        width: 170px;
+    }
+
+    .navbar .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar ul li .contact img {
+        margin-right: 8px;
+        width: 20px;
+    }
+
+    .navbar ul li .profile {
+        margin-left: 350px;
+    }
+
+    .navbar ul li .profile .name {
+        margin-right: 15px;
+
+    }
+
+    .navbar ul li .profile .image .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar ul li .profile .image .circle .main-photo {
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .navbar ul li .profile .image .edit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbar ul li .profile .image .edit-pro {
+        bottom: 1px;
+        left: -2px;
+    }
+
+    .navbar ul li .contact {
+        margin-right: 15px;
+    }
+
+    .navbar ul li .nav-custom-btn {
+        padding: 10px 30px;
+        margin-left: 20px;
+    }
+
+    .navbar .e-mail {
+        width: 35px;
+        height: 35px;
+        margin-left: 15px;
+    }
+
+    .navbar .e-mail img {
+        width: 20px;
+        height: 14px;
+    }
+
+    /* =========================================== 
+                 navbar responsive css end
+          =========================================== */
+    /* ====================home page responsive start============== */
+
+    /* =========================================== 
+                 welcome responsive css start
+          =========================================== */
+    #hts-login .login-image {
+        width: 703px;
+        height: 499px;
+        margin-left: 38px;
+    }
+
+    #hts-login .login-image img {
+        width: 100%;
+        height: 100%;
+        padding: 0 0px 0px 0;
+    }
+
+    .welcome-item .item-one {
+        width: 170px;
+        height: 170px;
+    }
+
+    .welcome-item .items {
+        width: 208px;
+        height: 170px;
+        padding: 99px 30px 20px 23px;
+    }
+
+    .welcome-item .item-one p {
+        width: 157px;
+    }
+
+
+    /* =========================================== 
+                 welcome responsive css end
+          =========================================== */
+    /* =========================================== 
+                 login responsive css start
+          =========================================== */
+    #hts-login .login-form {
+        padding-top: 110px;
+    }
+
+    #hts-login .login-page-img {
+        width: 713px;
+        height: 550px;
+        margin-left: 16px;
+    }
+
+    /* =========================================== 
+                 login responsive css end
+          =========================================== */
+    /* =========================================== 
+                 sign up responsive css start
+          =========================================== */
+    #hts-signup {
+        height: 700px;
+    }
+
+    #hts-signup .signup-input {
+        width: 295px;
+    }
+
+    #hts-signup .signup-content {
+        padding-top: 240px;
+    }
+
+    /* =========================================== 
+                 sign up responsive css end
+          =========================================== */
+    /* =========================================== 
+                 provider responsive css start
+          =========================================== */
+    .find-provider {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .find-provider .city {
+        width: 250px;
+        height: 265px;
+    }
+
+    .find-provider .city img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .find-provider .second {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .find-provider .second .information-box {
+
+        padding-left: 117px;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 30px;
+    }
+
+    .find-provider .selector-box .dropdown-div {
+        width: 310px;
+    }
+
+    .find-provider .radio-checkbox .label-design {
+        width: 310px;
+    }
+
+    .find-provider .radio-checkbox {
+        width: 311px;
+    }
+
+    .find-provider .information-box .provider-pra {
+        width: 280px;
+    }
+
+    .find-provider .information-box .sub-button {
+        width: 310px;
+        padding: 14px 0;
+    }
+
+    .find-provider .first-sub-button {
+        margin-top: 80px;
+    }
+
+    .find-provider .information-box {
+        margin-top: 5px;
+    }
+
+    .find-provider .second .information-box {
+        padding-left: 10px;
+    }
+
+    /* =========================================== 
+                 provider responsive css end
+          =========================================== */
+    /* =========================================== 
+                 provider2 responsive css start
+          =========================================== */
+    #provider2 {
+
+        padding-right: 0;
+        padding-top: 15px;
+    }
+
+    #provider2 .search-head {
+        width: 885px;
+        padding-right: 25px;
+    }
+
+    #provider2 .hospital-image {
+        width: 260px;
+        height: 275px;
+
+    }
+
+    #provider2 .main-search-box .search-box {
+        width: 860px;
+    }
+
+    #provider2 .main-search-box .serach-box-right {
+        padding-top: 5px;
+
+        text-align: right;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link {
+        margin-left: 0;
+
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-bold {
+        margin-bottom: 10px;
+    }
+
+    #provider2 .main-search-box .serach-box-right span {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    #provider2 .main-search-box .serach-box-right .sbox-right-link a {
+        margin-left: 30px;
+    }
+
+    /* =========================================== 
+                 provider2 responsive css end
+          =========================================== */
+    /* =========================================== 
+                 provider4 responsive css start
+          =========================================== */
+    #provider2 .map-search-head {
+        width: 907px;
+        padding-right: 21px;
+    }
+
+    #provider2 .main-search-box .map-search-box .map-result {
+        width: 595px;
+        height: 415px;
+    }
+
+    #provider2 .map-main-search-box {
+        width: 915px;
+        height: 498px;
+        padding-right: 30px;
+    }
+
+    #provider2 .main-search-box .one-box {
+        padding: 15px 15px;
+        height: 190px;
+    }
+
+    #provider2 .hospital-image {
+        margin-top: 35px;
+    }
+
+    /* =========================================== 
+                 provider4 responsive css end
+          =========================================== */
+    /* =========================================== 
+                 benefit responsive css start
+          =========================================== */
+    .benifts {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 60px;
+    }
+
+
+
+    .benifts .upload {
+        padding-left: 15px;
+    }
+
+    .benifts .upload textarea {
+        width: 100%;
+        height: 200px;
+    }
+
+    .benifts .information .g-info .datas .second-col {
+        margin-left: 100px;
+    }
+
+    /* =========================================== 
+                 benefit responsive css end
+          =========================================== */
+    /* =========================================== 
+                 plan responsive css start
+          =========================================== */
+
+    .plan {
+        padding-top: 60px;
+        padding-left: 120px;
+    }
+
+    /* =========================================== 
+                 plan responsive css end
+          =========================================== */
+    /* =========================================== 
+                 pricing responsive css start
+          =========================================== */
+
+    .pricing {
+        padding-top: 45px;
+        padding-left: 105px;
+        padding-bottom: 0;
+    }
+
+    /* =========================================== 
+                 pricing responsive css end
+          =========================================== */
+
+
+    /* ====================home page responsive end============== */
+    /* ====================message page responsive start============== */
+
+    /* =========================================== 
+                   message responsive css end
+            =========================================== */
+
+    #myTabContent .hst-mymessage {
+        padding: 40px 20px 40px 20px;
+    }
+
+    #myTabContent .message-left {
+        width: 380px;
+        height: 285px;
+        margin-bottom: 95px;
+    }
+
+    #myTabContent .message-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #myTabContent .message-right {
+        padding: 17px 0px 0px 12px;
+    }
+
+    #myTabContent .message-right .message-showbox {
+
+        padding: 28px 32px 5px 15px;
+    }
+
+    #myTabContent .message-textarea {
+        width: 776px;
+    }
+
+    /* =========================================== 
+                   message responsive css end
+            =========================================== */
+    /* =========================================== 
+                   message-info responsive css start
+            =========================================== */
+    #myTabContent .hst-memerbInfo {
+        padding: 20px 0 20px 40px;
+    }
+
+    /* =========================================== 
+                   message-info responsive css end
+            =========================================== */
+    /* =========================================== 
+                   message-term responsive css start
+            =========================================== */
+    #myTabContent .hst-termsUse .termsUse-content {
+        padding-right: 20px;
+    }
+
+    #myTabContent .hst-termsUse .termsUse-content p {
+        width: auto;
+    }
+
+    #myTabContent .hst-termsUse {
+        padding: 20px 20px 20px 30px;
+    }
+
+    /* =========================================== 
+                   message-term responsive css end
+            =========================================== */
+    /* ====================message page responsive end============== */
+
+
+    /* =========================================== 
+                     provide-modal responsive css start
+              =========================================== */
+    #searchFilters .modal-dialog {
+        margin-top: 186px;
+        margin-left: 740px;
+    }
+
+    /* =========================================== 
+                     provide-modal responsive css end
+              =========================================== */
+    /* =========================================== 
+                     profile-modal responsive css start
+              =========================================== */
+
+    #changePhoto .modal-dialog {
+        width: 374px;
+        margin: 130px 0px 50px auto;
+    }
+
+    #changePhoto .modal-content .modal-body {
+        padding: 0px 20px 40px 30px;
+    }
+
+    #changePhoto .changepic-content .changeUser-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    #changePhoto .modal-dialog .modal-content {
+        width: 370px;
+    }
+
+    /* =========================================== 
+                     profile-modal responsive css end
+              =========================================== */
+    /* =========================================== 
+                     msg-info-modal responsive css start
+              =========================================== */
+    #hstuserpopup .popup-userinfo .popup-userImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    #hstuserpopup .modal-dialog {
+
+        top: 132px;
+    }
+
+    #hstuserpopup .modal-dialog .modal-content {
+        width: 360px;
+    }
+
+    /* =========================================== 
+                     msg-info-modal responsive css end
+              =========================================== */
+
+
+
+
+}
+
+@media (min-width: 1600px) {
+
+    .container {
+        max-width: 1430px;
+    }
+
+    .green-screen {
+        height: 100vh;
+    }
+
+    .bg-shape1 {
+        width: 1450px;
+        height: 300px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 680px;
+        width: 1080px;
+        background-size: 760px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1701px;
+        background-size: 2100px;
+    }
+
+    .blue-screen {
+        height: 100vh;
+    }
+
+    .bg-shape3 {
+        width: 1299px;
+        height: 200px;
+    }
+
+    .blue-screen::after {
+        background-size: 2290px;
+        height: 849px;
+        width: 1301px;
+    }
+
+    .none-green::before {
+        height: 204px !important;
+        width: 1600px !important;
+    }
+
+
+}
+
+
+@media (min-width: 1900px) {
+
+
+
+    .green-screen {
+        height: 100vh;
+    }
+
+    .bg-shape1 {
+        width: 1450px;
+        height: 300px;
+    }
+
+    .green-screen::after {
+        bottom: 0;
+        right: -10px;
+        height: 680px;
+        width: 1080px;
+        background-size: 760px;
+    }
+
+    .green-screen::before {
+        bottom: 0;
+        right: -260px;
+        height: 125px;
+        width: 1701px;
+        background-size: 2100px;
+    }
+
+    .blue-screen {
+        height: 100vh;
+    }
+
+    .bg-shape3 {
+        width: 1600px;
+        height: 310px;
+    }
+
+    .blue-screen::after {
+        background-size: 2397px;
+        height: 849px;
+        width: 2001px;
+    }
+
+
+
+
+}

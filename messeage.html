@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class=" blue-screen">
+    <div id="main-div " class="main-div-blue">
+        <img class="bg-shape3" src="./assets/images/background/msg-top-shape.svg" alt="msg-top-shape">
+
+        <!-- ================================================================
+                                navbar html start
+         ================================================================ -->
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="./assets/images/Nav/logo.svg" alt="logo">
+                </a>
+                <a class="desk msg-extra" href="messeage.html">
+                    <div class="e-mail">
+                        <img src="./assets/images/Nav/e-mail.svg" alt="e-mail">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 msg-bg">
+
+                        <li class="nav-item mobile">
+                            <div class="contact">
+                                <a href="tel:800.292.0536" class="small-mon"><img
+                                        src="./assets/images/Nav/phone-call.svg" alt="phone-call">800.292.0536</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile">
+                            <div class="contact">
+                                <a href="mailto: INFO@HSTECHNOLOGY.COM" class="small-mon"><img
+                                        src="./assets/images/Nav/mail.svg" alt="mail">info@hstechnology.com</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="profile">
+                                <div class="name">
+                                    <p class="boldx18-ro">Hello!</p>
+                                    <p class="boldx18-ro">Steven Winslow</p>
+                                </div>
+                                <div class="image">
+                                    <div class="circle">
+                                        <a href="#">
+                                            <div class="main-photo">
+                                                <img src="./assets/images/Nav/profile-pic.png" alt="profile-pic">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a class="edit-pro " href="#" data-bs-toggle="modal" data-bs-target="#changePhoto">
+                                        <div class="edit ">
+                                            <img class="userEdit-icon" src="./assets/images/Nav/edit-icon.svg"
+                                                alt="edit-icon">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item desk">
+                            <div class="contact">
+                                <a href="tel:800.292.0536" class="small-mon"><img
+                                        src="./assets/images/Nav/phone-call.svg" alt="phone-call">800.292.0536</a>
+                            </div>
+                        </li>
+                        <li class="nav-item desk">
+                            <div class="contact">
+                                <a href="mailto: INFO@HSTECHNOLOGY.COM" class="small-mon"><img
+                                        src="./assets/images/Nav/mail.svg" alt="mail">info@hstechnology.com</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a href="messeage.html">
+                                <div class="e-mail">
+                                    <img src="./assets/images/Nav/e-mail.svg" alt="e-mail">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-custom-btn boldx14-ro"> Your Doctor </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="changePhoto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="container">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="changepic-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                        <img src="assets/images/messages/user-popup-icon.svg" alt="close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="changepic-content">
+                                        <h2 class="smediumx24l28-ro">Change Photo</h2>
+                                        <div class="changeUser-photo"
+                                            style="background-image: url('assets/images/Nav/upload-default.png');">
+                                        </div>
+                                        <p class="sboldx14l18-ro">Files :</p>
+                                        <div class="change-options">
+                                            <a href="#"><img src="assets/images/Nav/take-photo.svg"
+                                                    alt="take a photo"><span class="ssmallx12-ro">Take a
+                                                    photo</span></a>
+                                            <div class="change-input">
+                                                <input id="fileUpload" type="file" placeholder="Select Photo" />
+                                                <label for="fileUpload" class="fileUpload-label"><span><img
+                                                            src="assets/images/Nav/file-upload.svg"
+                                                            alt="upload-icon"></span><span class="ssmallx12-ro">Select
+                                                        Photo</span></label>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="remove-photo smediumx14l16-ro">Remove photo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- ================================================================
+                                navbar html end
+         ================================================================ -->
+        <!-- ================================================================
+                                tabs html start
+         ================================================================ -->
+
+        <section id="tabs-part">
+            <div class="container">
+                <ul class="nav nav-tabs " id="myTab" role="tablist">
+                    <li class="nav-item " role="presentation">
+                        <button class="nav-link active mediumx18-ro" id="Mymessages-tab" data-bs-toggle="tab"
+                            data-bs-target="#Mymessages" type="button" role="tab" aria-controls="home"
+                            aria-selected="true">My Messages</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link mediumx18-ro" id="lgoinDetils-tab" data-bs-toggle="tab"
+                            data-bs-target="#lgoinDetils" type="button" role="tab" aria-controls="profile"
+                            aria-selected="false">Change Login Details</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link mediumx18-ro" id="memberInfo-tab" data-bs-toggle="tab"
+                            data-bs-target="#memberInfo" type="button" role="tab" aria-controls="contact"
+                            aria-selected="false">Member Info</button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link mediumx18-ro" id="termsofuse-tab" data-bs-toggle="tab"
+                            data-bs-target="#termsofuse" type="button" role="tab" aria-controls="contact"
+                            aria-selected="false">Terms of Use</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active proce" id="Mymessages" role="tabpanel"
+                        aria-labelledby="Mymessages-tab">
+                        <div class="hst-mymessage">
+                            <div class="container">
+                                <div class="row res-msg-flexx">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4">
+                                        <div class="message-left">
+                                            <img src="assets/images/messages/message-left.svg" alt="Left Image">
+                                        </div>
+                                        <div class="message-bottom mobile-none">
+                                            <div class="message-language">
+                                                <span class="sboldx14l18-ro">Language :</span>
+                                                <select class="form-select message-select sboldx14l18-ro"
+                                                    aria-label="Default select example">
+                                                    <option selected>English</option>
+                                                    <option value="spanish">Spanish</option>
+                                                    <option value="japanese">Japanese</option>
+                                                    <option value="bengali">Bengali</option>
+                                                </select>
+                                            </div>
+                                            <a href="login.html" class="smediumx18l18-ro "><span><img
+                                                        src="assets/images/messages/signout-icon.svg"
+                                                        alt="signout-icon"></span> Signout</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8">
+                                        <div class="message-right">
+                                            <div class="msg-for-border">
+                                                <div class="message-showbox">
+                                                    <div class="left">
+                                                        <div class="messages-content">
+                                                            <a href="#" class="user-image"
+                                                                style="background-image: url('assets/images/messages/image-9.png');"
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#hstuserpopup"></a>
+                                                            <div class="message-info">
+                                                                <div class="message-text">
+                                                                    <p class="ssmallx12-ro">Lorem ipsum dolor sit amet,
+                                                                        consectetur adipiscing elit, sed do eiusmod
+                                                                        tempor
+                                                                        incididunt ut labore et dolore magna aliqua.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="message-time">
+                                                                    <span class="ssmallx9-ro">Jan 9, 2018</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="messages-content">
+                                                            <div class="message-info my-message">
+                                                                <div class="message-text">
+                                                                    <p class="ssmallx12-ro">Lorem ipsum dolor sit amet,
+                                                                        consectetur adipiscing elit, sed do eiusmod
+                                                                        tempor
+                                                                        incididunt ut labore et dolore magna aliqua.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="message-time">
+                                                                    <span class="ssmallx9-ro">Jan 9, 2018</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="left">
+                                                        <div class="messages-content">
+                                                            <a href="#" class="user-image"
+                                                                style="background-image: url('assets/images/messages/image-9.png');"
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#hstuserpopup"></a>
+                                                            <div class="message-info">
+                                                                <div class="message-text">
+                                                                    <p class="ssmallx12-ro">Lorem ipsum dolor sit amet,
+                                                                        consectetur adipiscing elit, sed do eiusmod
+                                                                        tempor
+                                                                        incididunt ut labore et dolore magna aliqua.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="message-time">
+                                                                    <span class="ssmallx9-ro">Jan 9, 2018</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="messages-content">
+                                                            <div class="message-info my-message">
+                                                                <div class="message-text">
+                                                                    <p class="ssmallx12-ro">Lorem ipsum dolor sit amet,
+                                                                        consectetur adipiscing elit, sed do eiusmod
+                                                                        tempor
+                                                                        incididunt ut labore et dolore magna aliqua.
+                                                                    </p>
+                                                                </div>
+                                                                <div class="message-time">
+                                                                    <span class="ssmallx9-ro">Jan 9, 2018</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="message-inputbox">
+                                                <form>
+                                                    <div class="mb-2">
+                                                        <textarea class="message-textarea mediumx14-ro" rows="2"
+                                                            placeholder="Write a message..."></textarea>
+                                                    </div>
+                                                    <button type="submit"
+                                                        class="message-btn sboldx14l18-ro">Send</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!-- User Popup start -->
+                                        <div class="modal fade" id="hstuserpopup" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="user-close" data-bs-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <img src="assets/images/messages/user-popup-icon.svg"
+                                                                alt="close">
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="popup-userinfo">
+                                                            <div class="popup-userImage"
+                                                                style="background-image: url('assets/images/messages/image-9.png');">
+                                                            </div>
+                                                            <div class="popup-userText">
+                                                                <h2 class="sboldx22-ro">Contact Information</h2>
+                                                                <table class="table">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">Name:
+                                                                            </th>
+                                                                            <td class="smediumx14-ro">Anderson Silveira
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">Email:
+                                                                            </th>
+                                                                            <td class="smediumx14-ro">Anderson@gmail.com
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">Phone
+                                                                                Number:</th>
+                                                                            <td class="smediumx14-ro">800 555-1234</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">
+                                                                                Address:
+                                                                            </th>
+                                                                            <td class="smediumx14-ro">4652 Green Gate
+                                                                                Lane
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">Office
+                                                                                Hours:</th>
+                                                                            <td class="smediumx14-ro">8.00am - 6.00pm
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row" class="smediumx14-ro">Other
+                                                                                Notes:</th>
+                                                                            <td class="smediumx14-ro">—</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- User Popup End -->
+                                    </div>
+                                </div>
+                                <div class="message-bottom desk-none">
+                                    <div class="message-language">
+                                        <span class="sboldx14l18-ro">Language :</span>
+                                        <select class="form-select message-select sboldx14l18-ro"
+                                            aria-label="Default select example">
+                                            <option selected>English</option>
+                                            <option value="spanish">Spanish</option>
+                                            <option value="japanese">Japanese</option>
+                                            <option value="bengali">Bengali</option>
+                                        </select>
+                                    </div>
+                                    <a href="login.html" class="smediumx18l18-ro "><span><img
+                                                src="assets/images/messages/signout-icon.svg" alt="signout-icon"></span>
+                                        Signout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="lgoinDetils" role="tabpanel" aria-labelledby="lgoinDetils-tab">
+                        <div class="hst-loginDetails">
+                            <div class="row g-0">
+                                <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
+                                    <div class="login-changeEmail">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="changeEmail" class="changeEmail-label sboldx20-ro">Change
+                                                    Email</label>
+                                                <input type="email" class="change-inputs ssmallx14-ro" id="changeEmail"
+                                                    placeholder="email@email.com">
+                                            </div>
+                                            <button type="cancel" class="change-btn smediumx14-ro">CANCEL</button>
+                                            <button type="submit"
+                                                class="change-btn smediumx14-ro bg-celery">SAVE</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-8 col-xl-5 col-lg-6 col-md-6">
+                                    <div class="login-changeEmail login-pad-bt">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="changePassword" class="changeEmail-label sboldx20-ro">Change
+                                                    Password</label>
+                                                <input type="password" class="change-inputs ssmallx14-ro"
+                                                    id="changePassword" placeholder="Current Password">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="password" class="change-inputs ssmallx14-ro"
+                                                    placeholder="New Password" aria-describedby="passwordHelp">
+                                                <div id="passwordHelp" class="newPassword-text ssmallx10-ro">Must be at
+                                                    least 6 characters, at least 1 uppercase, 1 lowercase and 1 number
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="password" class="change-inputs ssmallx14-ro"
+                                                    placeholder="Confirm Password">
+                                            </div>
+                                            <button type="cancel" class="change-btn smediumx14-ro">CANCEL</button>
+                                            <button type="submit"
+                                                class="change-btn smediumx14-ro bg-celery">SAVE</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="message-bottom">
+                                    <div class="message-language">
+                                        <span class="sboldx14l18-ro">Language :</span>
+                                        <select class="form-select message-select sboldx14l18-ro"
+                                            aria-label="Default select example">
+                                            <option selected>English</option>
+                                            <option value="spanish">Spanish</option>
+                                            <option value="japanese">Japanese</option>
+                                            <option value="bengali">Bengali</option>
+                                        </select>
+                                    </div>
+                                    <a href="login.html" class="smediumx18l18-ro"><span><img
+                                                src="assets/images/messages/signout-icon.svg" alt="signout-icon"></span>
+                                        Signout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="memberInfo" role="tabpanel" aria-labelledby="memberInfo-tab">
+                        <div class="hst-memerbInfo">
+                            <div class="row">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6">
+                                            <div class="memerbInfo-content">
+                                                <div class="mb-3">
+                                                    <label for="memberinfo" class="memberInfo-label sboldx12-ro">Address
+                                                        1:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="Address 1">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="memberinfo" class="memberInfo-label sboldx12-ro">Address
+                                                        2:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="Address 2">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="memberinfo"
+                                                        class="memberInfo-label sboldx12-ro">City:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="City">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-9 col-xl-8 col-lg-5 col-md-6">
+                                            <div class="memerbInfo-content mem-info-nopad px-5">
+                                                <div class="mb-3">
+                                                    <label for="memberinfo"
+                                                        class="memberInfo-label sboldx12-ro">State:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="State">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="memberinfo"
+                                                        class="memberInfo-label sboldx12-ro">ZIP:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="ZIP">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="memberinfo" class="memberInfo-label sboldx12-ro">Phone
+                                                        Number:</label>
+                                                    <input type="text" class="change-inputs ssmallx14-ro"
+                                                        id="memberinfo" placeholder="Phone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="cancel" class="change-btn smediumx14-ro">CANCEL</button>
+                                    <button type="submit" class="change-btn smediumx14-ro bg-celery">SAVE</button>
+                                </form>
+                                <div class="message-bottom hst-pt-90">
+                                    <div class="message-language">
+                                        <span class="sboldx14l18-ro">Language :</span>
+                                        <select class="form-select message-select sboldx14l18-ro"
+                                            aria-label="Default select example">
+                                            <option selected>English</option>
+                                            <option value="spanish">Spanish</option>
+                                            <option value="japanese">Japanese</option>
+                                            <option value="bengali">Bengali</option>
+                                        </select>
+                                    </div>
+                                    <a href="login.html" class="smediumx18l18-ro"><span><img
+                                                src="assets/images/messages/signout-icon.svg" alt="signout-icon"></span>
+                                        Signout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="termsofuse" role="tabpanel" aria-labelledby="termsofuse-tab">
+                        <div class="hst-termsUse">
+                            <div class="row">
+                                <div class="col-xxl-12">
+                                    <div class="termsUse-content">
+                                        <h1 class="sboldx20l24-ro">Terms and Conditions for HST Connect</h1>
+
+                                        <h3 class="smediumx18-ro">Introduction</h3>
+                                        <p class="ssmallx14l24-ro">These Website Standard Terms and Conditions written
+                                            on this webpage shall manage your use of our website, Webiste Name
+                                            accessible at Website.com.</p>
+                                        <p class="ssmallx14l24-ro">These Terms will be applied fully and affect to your
+                                            use of this Website. By using this Website, you agreed to accept all terms
+                                            and conditions written in here. You must not use this Website if you
+                                            disagree with any of these Website Standard Terms and Conditions.</p>
+
+                                        <h3 class="smediumx18-ro">Intellectual Property Ri ghts</h3>
+                                        <p class="ssmallx14l24-ro">Other than the content you own, under these Terms,
+                                            Company Name and/or its licensors own all the intellectual property rights
+                                            and materials contained in this Website.</p>
+                                        <p class="ssmallx14l24-ro">You are granted limited license only for purposes of
+                                            viewing the material contained on this Website.</p>
+                                        <h1 class="sboldx20l24-ro">Terms and Conditions for HST Connect</h1>
+
+                                        <h3 class="smediumx18-ro">Introduction</h3>
+                                        <p class="ssmallx14l24-ro">These Website Standard Terms and Conditions written
+                                            on this webpage shall manage your use of our website, Webiste Name
+                                            accessible at Website.com.</p>
+                                        <p class="ssmallx14l24-ro">These Terms will be applied fully and affect to your
+                                            use of this Website. By using this Website, you agreed to accept all terms
+                                            and conditions written in here. You must not use this Website if you
+                                            disagree with any of these Website Standard Terms and Conditions.</p>
+
+                                        <h3 class="smediumx18-ro">Intellectual Property Ri ghts</h3>
+                                        <p class="ssmallx14l24-ro">Other than the content you own, under these Terms,
+                                            Company Name and/or its licensors own all the intellectual property rights
+                                            and materials contained in this Website.</p>
+                                        <p class="ssmallx14l24-ro">You are granted limited license only for purposes of
+                                            viewing the material contained on this Website.</p>
+                                        <h1 class="sboldx20l24-ro">Terms and Conditions for HST Connect</h1>
+
+                                        <h3 class="smediumx18-ro">Introduction</h3>
+                                        <p class="ssmallx14l24-ro">These Website Standard Terms and Conditions written
+                                            on this webpage shall manage your use of our website, Webiste Name
+                                            accessible at Website.com.</p>
+                                        <p class="ssmallx14l24-ro">These Terms will be applied fully and affect to your
+                                            use of this Website. By using this Website, you agreed to accept all terms
+                                            and conditions written in here. You must not use this Website if you
+                                            disagree with any of these Website Standard Terms and Conditions.</p>
+
+                                        <h3 class="smediumx18-ro">Intellectual Property Ri ghts</h3>
+                                        <p class="ssmallx14l24-ro">Other than the content you own, under these Terms,
+                                            Company Name and/or its licensors own all the intellectual property rights
+                                            and materials contained in this Website.</p>
+                                        <p class="ssmallx14l24-ro">You are granted limited license only for purposes of
+                                            viewing the material contained on this Website.</p>
+                                    </div>
+                                    <div class="message-bottom">
+                                        <div class="message-language">
+                                            <span class="sboldx14l18-ro">Language :</span>
+                                            <select class="form-select message-select sboldx14l18-ro"
+                                                aria-label="Default select example">
+                                                <option selected>English</option>
+                                                <option value="spanish">Spanish</option>
+                                                <option value="japanese">Japanese</option>
+                                                <option value="bengali">Bengali</option>
+                                            </select>
+                                        </div>
+                                        <a href="login.html" class="smediumx18l18-ro"><span><img
+                                                    src="assets/images/messages/signout-icon.svg"
+                                                    alt="signout-icon"></span> Signout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================================================================
+                                    tabs html end
+             ================================================================ -->
+
+        <!-- ================================================================
+                                footer html start
+         ================================================================ -->
+        <section id="footer-part">
+            <div class="container">
+                <div class="main">
+                    <div class="copy">
+                        <p class="small-mon"> &copy; Copyright 2021 HST All Rights Reserved</p>
+                    </div>
+                    <div class="term">
+                        <a href="#" class="small-mon">Privacy Policy</a>
+                        <a href="#" class="small-mon">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================================================================
+                                footer html end
+         ================================================================ -->
+
+    </div>
+
+    <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/body.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTS WELCOME</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class="green-screen">
+    <div id="main-div">
+        <img class="bg-shape1" src="./assets/images/background/top-shape.svg" alt="top-shape">
+
+        <!-- ================================================================
+                                navbar html start
+         ================================================================ -->
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="./assets/images/Nav/logo.svg" alt="logo">
+                </a>
+                <a class="desk msg-extra" href="messeage.html">
+                    <div class="e-mail">
+                        <img src="./assets/images/Nav/e-mail.svg" alt="e-mail">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item mobile">
+                            <div class="contact">
+                                <a href="tel:800.292.0536" class="small-mon"><img
+                                        src="./assets/images/Nav/phone-call.svg" alt="phone-call">800.292.0536</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile">
+                            <div class="contact">
+                                <a href="mailto: INFO@HSTECHNOLOGY.COM" class="small-mon"><img
+                                        src="./assets/images/Nav/mail.svg" alt="mail">info@hstechnology.com</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="profile">
+                                <div class="name">
+                                    <p class="boldx18-ro">Hello!</p>
+                                    <p class="boldx18-ro">Steven Winslow</p>
+                                </div>
+                                <div class="image">
+                                    <div class="circle">
+                                        <a href="#">
+                                            <div class="main-photo">
+                                                <img src="./assets/images/Nav/profile-pic.png" alt="profile-pic">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a class="edit-pro " href="#" data-bs-toggle="modal" data-bs-target="#changePhoto">
+                                        <div class="edit ">
+                                            <img class="userEdit-icon" src="./assets/images/Nav/edit-icon.svg"
+                                                alt="edit-icon">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item desk">
+                            <div class="contact">
+                                <a href="tel:800.292.0536" class="small-mon"><img
+                                        src="./assets/images/Nav/phone-call.svg" alt="phone-call">800.292.0536</a>
+                            </div>
+                        </li>
+                        <li class="nav-item desk">
+                            <div class="contact">
+                                <a href="mailto: INFO@HSTECHNOLOGY.COM" class="small-mon"><img
+                                        src="./assets/images/Nav/mail.svg" alt="mail">info@hstechnology.com</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile">
+                            <a href="messeage.html">
+                                <div class="e-mail">
+                                    <img src="./assets/images/Nav/e-mail.svg" alt="e-mail">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-custom-btn boldx14-ro"> Your Doctor </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="changePhoto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="container">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="changepic-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                        <img src="assets/images/messages/user-popup-icon.svg" alt="close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="changepic-content">
+                                        <h2 class="smediumx24l28-ro">Change Photo</h2>
+                                        <div class="changeUser-photo"
+                                            style="background-image: url('assets/images/Nav/upload-default.png');">
+                                        </div>
+                                        <p class="sboldx14l18-ro">Files :</p>
+                                        <div class="change-options">
+                                            <a href="#"><img src="assets/images/Nav/take-photo.svg"
+                                                    alt="take a photo"><span class="ssmallx12-ro">Take a
+                                                    photo</span></a>
+                                            <div class="change-input">
+                                                <input id="fileUpload" type="file" placeholder="Select Photo" />
+                                                <label for="fileUpload" class="fileUpload-label"><span><img
+                                                            src="assets/images/Nav/file-upload.svg"
+                                                            alt="upload-icon"></span><span class="ssmallx12-ro">Select
+                                                        Photo</span></label>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="remove-photo smediumx14l16-ro">Remove photo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- ================================================================
+                                navbar html end
+            ================================================================ -->
+
+        <!-- ================================================================
+                                home html start
+            ================================================================ -->
+
+        <section id="hts-login">
+            <div class="container">
+                <div class="login-title">
+                    <h1 class="sblackx62-mon">Welcome to HST Connect</h1>
+                </div>
+                <div class="row flexx-res g-lg-0">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="welcome-item hst-mt-59 hst-mt-59-2 hst-res-mt">
+                            <div class="row home-flexx-wrap">
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col">
+                                    <div class="item-one">
+                                        <p class="ssmallx18-mon">This wizard will take you through the claim, pricing
+                                            methodology, and correction process.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4  col-lg-4 col">
+                                    <a href="procedure.html" class="items smediumx24-ro">Find a <br /> Procedure</a>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col">
+                                    <a href="provider.html" class="items smediumx24-ro">Find a <br /> Provider</a>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col">
+                                    <a href="benefit.html" class="items smediumx24-ro">My <br /> Benefits</a>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col">
+                                    <a href="plan.html" class="items smediumx24-ro">Call <br /> Plan</a>
+                                </div>
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col">
+                                    <a href="prescription.html" class="items smediumx24-ro">Prescription <br />
+                                        Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="login-image">
+                            <img src="./assets/images/login/login-img.svg" alt="login-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================
+                                    home html end
+             ================================================================ -->
+
+        <!-- ================================================================
+                                footer html start
+         ================================================================ -->
+
+        <section id="footer-part">
+            <div class="container">
+                <div class="main">
+                    <div class="copy">
+                        <p class="small-mon"> &copy; Copyright 2021 HST All Rights Reserved</p>
+                    </div>
+                    <div class="term">
+                        <a href="#" class="small-mon">Privacy Policy</a>
+                        <a href="#" class="small-mon">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================================================================
+                                footer html end
+         ================================================================ -->
+
+    </div>
+
+    <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
